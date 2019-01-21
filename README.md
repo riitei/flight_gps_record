@@ -11,8 +11,7 @@ cmd: python3 flightradar24_main.py flight_id
 Example： python3 flightradar24_main.py ci501
 
 Note:
- Chrome software will be opened during the execution and you will see the Xiaomi website. After seeing the Xiaomi website, the computer will automatically enter your Xiaomi account password. Finally, I will go to the Xiaomi Double Eleven event screen and click on the coupon.
- 
+Enter the flight ID of the aircraft ( id = CI 201 ). The program captures the flightradar24 flight record and stores the json material in the f24_data folder. 
 <h3>Contact information：</h3><br>
 Email: <a href="mailto:bcs097115@gm.ntcu.edu.tw">bcs097115@gm.ntcu.edu.tw</a><br>
 Linkedin:<a href="https://www.linkedin.com/in/riitei/">riitei</a><br>
