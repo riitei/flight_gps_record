@@ -153,4 +153,4 @@ class Flightradar24:
 
 if __name__ == "__main__":
     # Flightradar24().main(sys.argv[1])
-    Flightradar24().main('ci202')
+    Flightradar24().main('ci502')
