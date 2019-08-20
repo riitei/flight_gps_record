@@ -1,27 +1,34 @@
 # system
 from selenium import webdriver
+from os.path import dirname, join
 import time
 import random
+from datetime import datetime, timedelta
 import sys
 #
-from f24_access_file import f24_read_write_file
+from f24_access_file import F24AccessFile
 
 
 class Flightradar24:
+    # save data directory
+    #
     __url = "https://www.flightradar24.com/data/flights/%s"
+    # airline_name html tag id
+    __airline_name_id = 'cnt-playback'
+    # airline_name_attributes
+    __airline_name_attributes_name = 'data-airline-name'
     # check button get parameter
     __playButton_className = '.btn.btn-sm.btn-playback.btn-table-action.text-white.bkg-blue.fs-10'
     # This is the attributes value of flightradar24 flight id
     __flightRadar24_flightId_attributes_name = 'data-flight-hex'
     # This is the attributes value of flightradar24 timestamp
     __flightRadar24_timestamp_attributes_name = 'data-timestamp'
-    # get json
+    # get json file
     __flight_json_url = 'https://api.flightradar24.com/common/v1/flight-playback.json?flightId=%s&timestamp=%s&token='
 
+    # airline_id
+
     #
-    def __init__(self):
-        # start read write file object
-        self.file = f24_read_write_file()
 
     def time_sleep(self, second):
         """
@@ -70,26 +77,35 @@ class Flightradar24:
             # driver.quit()
             # exit()
 
-    def flight_record(self, flight_id, data_timestamp, data_flight):
+    def flight_record(self, f24_timestamp, f24_flight_id, airline_name, airline_id):
 
-        flight_url = self.__flight_json_url % (data_flight, data_timestamp)
+        f24AccessFile = F24AccessFile()
 
-        driver = self.webdriver_chrome(flight_url)
+        print('%s => %s _ %s  ' % (f24AccessFile.format_datetime(f24_timestamp), airline_name, airline_id,))
 
-        self.time_sleep(2)
+        status = f24AccessFile.search_f24_file(f24_timestamp, airline_name, airline_id, f24_flight_id)
 
-        try:
-            # data is Flight GPS record
-            flight_data = driver.find_element_by_tag_name('pre').text
+        if not status:
+            try:
+                flight_url = self.__flight_json_url % (f24_flight_id, f24_timestamp)
+                driver = self.webdriver_chrome(flight_url)
+                #
+                time.sleep(5)
 
-            flight_time = time.strftime("%Y-%m-%d", time.localtime(int(data_timestamp)))
-            file_name = flight_time + "_" + flight_id
-            # Data write file
-            self.file.write_json(file_name, flight_data)
-        except:
-            pass
-        finally:
-            driver.quit()
+                # data is Flight GPS record
+                flight_data = driver.find_element_by_tag_name('pre').text
+                # write file
+                f24AccessFile.write_json(f24_timestamp, airline_name, airline_id, f24_flight_id, flight_data)
+
+            except Exception as e:
+                print('-- record errer --')
+                print(e)
+                print('-- record errer --')
+                pass
+            finally:
+                driver.quit()
+
+    #
 
     def main(self, airline_id):
         """
@@ -107,50 +123,54 @@ class Flightradar24:
         """
 
         url = self.__url % (airline_id)
+        # start chrome
         driver = self.webdriver_chrome(url)
 
         try:
             # search CSV_button css name
+            airline_name = \
+                driver.find_element_by_id(self.__airline_name_id).get_attribute(self.__airline_name_attributes_name)
             play_button = driver.find_elements_by_css_selector(self.__playButton_className)
 
-            self.time_sleep(2)
+            # 判斷航班是否有飛行紀錄
 
-            for i, t in enumerate(play_button):
-                # Deduct the flight record on the day 扣除當天飛行中紀錄
-                if t.get_attribute(self.__flightRadar24_flightId_attributes_name) != "" and i != 0:
-                    flightRadar24_flightId = t.get_attribute(self.__flightRadar24_flightId_attributes_name)
-                    flightRadar24_timestamp = t.get_attribute(self.__flightRadar24_timestamp_attributes_name)
-                    t.click()
-                    flight_json_url = self.__flight_json_url % (flightRadar24_flightId, flightRadar24_timestamp)
-                    print(flight_json_url)
+            if len(play_button) != 0:
 
-                    self.time_sleep(2)
-                    # Check if this flight record is available for this machine
+                # self.time_sleep(5)
+                before_yesterday = int(datetime.timestamp(datetime.now() - timedelta(days=2)))
 
-                    # # change use json save
-                    # search_result = self.file.search_f24_file_id(
-                    #     t.get_attribute(self.__flightRadar24_flightId_attributes_name))
+                for i, t in enumerate(play_button):
+                    # Deduct the flight record on the day 扣除當天飛行中紀錄
+                    if t.get_attribute(self.__flightRadar24_flightId_attributes_name) != "":
+                        f24_flightId = t.get_attribute(self.__flightRadar24_flightId_attributes_name)
+                        f24_timestamp = t.get_attribute(self.__flightRadar24_timestamp_attributes_name)
 
-                    # print(i)
-                    # print(t.get_attribute(self.__flightRadar24_flightId_attributes_name))
-                    # print(search_result)
-                    # print('---')
-                    # # -1 is no data
-                    # if search_result < 0:
-                        # Record the flight time of the day
-                    self.flight_record(airline_id, flightRadar24_timestamp, flightRadar24_flightId)
-                # if i == 9:
-                #     break
+                        if int(f24_timestamp) < before_yesterday:
+                            self.time_sleep(10)
+                            t.click()
+                            print('-- run --[ %s ] -> %s ' %
+                                  (datetime.strftime(datetime.fromtimestamp(int(f24_timestamp)), '%Y_%m_%d'),
+                                   airline_id))
+                        self.flight_record(f24_timestamp, f24_flightId, airline_name, airline_id)
+            else:
+                print(airline_id + ' no data')
+                print(' -- --- --- ---')
 
+                self.time_sleep(1)
+        except Exception as e:
+            print('-- main errer --')
+            print(e)
 
-
-        except:
+            f = F24AccessFile()
+            f.write_error_mess(f24_timestamp, airline_id, str(e))
+            print('-- main errer --')
             pass
         finally:
             driver.quit()
-            print("program_end")
 
-
-if __name__ == "__main__":
-    # Flightradar24().main(sys.argv[1])
-    Flightradar24().main('ci502')
+#
+# if __name__ == "__main__":
+#     for i in range(1000, 10000):
+#         print(i)
+#         f = Flightradar24()
+#         f.main('ci%d' % i)

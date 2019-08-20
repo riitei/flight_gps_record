@@ -1,0 +1,6441 @@
+{
+  "result": {
+    "request": {
+      "callback": null,
+      "device": null,
+      "flightId": "21AEAA85",
+      "format": "json",
+      "pk": null,
+      "timestamp": 1565721900,
+      "token": ""
+    },
+    "response": {
+      "timestamp": 1566134230,
+      "data": {
+        "flight": {
+          "identification": {
+            "id": "21aeaa85",
+            "number": {
+              "default": "BR206"
+            },
+            "callsign": "EVA206"
+          },
+          "status": {
+            "live": false,
+            "text": "Landed 06:39",
+            "icon": "green",
+            "estimated": null,
+            "ambiguous": false,
+            "generic": {
+              "status": {
+                "text": "landed",
+                "type": "arrival",
+                "color": "green",
+                "diverted": null
+              },
+              "eventTime": {
+                "utc": 1565735997,
+                "local": 1565764797
+              }
+            }
+          },
+          "aircraft": {
+            "model": {
+              "code": "A333",
+              "text": "Airbus A330-302"
+            },
+            "identification": {
+              "modes": "8990CF",
+              "registration": "B-16332",
+              "serialNo": null,
+              "age": {
+                "availability": true
+              }
+            },
+            "availability": {
+              "serialNo": true,
+              "age": true
+            }
+          },
+          "owner": {
+            "name": "EVA Air",
+            "code": {
+              "iata": null,
+              "icao": "EVA"
+            }
+          },
+          "airline": {
+            "name": "EVA Air (Hello Kitty Loves Apples Livery)",
+            "code": {
+              "iata": null,
+              "icao": "EVA"
+            },
+            "short": "EVA Air"
+          },
+          "airport": {
+            "origin": {
+              "name": "Bangkok Suvarnabhumi Airport",
+              "code": {
+                "iata": "BKK",
+                "icao": "VTBS"
+              },
+              "position": {
+                "latitude": 13.6811,
+                "longitude": 100.7472,
+                "country": {
+                  "name": "Thailand",
+                  "code": "TH",
+                  "id": 221
+                },
+                "region": {
+                  "city": "Bangkok"
+                }
+              },
+              "timezone": {
+                "name": "Asia\/Bangkok",
+                "offset": 25200,
+                "abbr": "+07",
+                "abbrName": null,
+                "isDst": false
+              }
+            },
+            "destination": {
+              "name": "Taiwan Taoyuan International Airport",
+              "code": {
+                "iata": "TPE",
+                "icao": "RCTP"
+              },
+              "position": {
+                "latitude": 25.07773,
+                "longitude": 121.232803,
+                "country": {
+                  "name": "Taiwan",
+                  "code": "TW",
+                  "id": 218
+                },
+                "region": {
+                  "city": "Taipei"
+                }
+              },
+              "timezone": {
+                "name": "Asia\/Taipei",
+                "offset": 28800,
+                "abbr": "CST",
+                "abbrName": "China Standard Time",
+                "isDst": false
+              }
+            },
+            "real": null
+          },
+          "median": {
+            "time": 11870,
+            "delay": 217,
+            "timestamp": 1566091404
+          },
+          "track": [
+            {
+              "latitude": 13.656326,
+              "longitude": 100.751823,
+              "altitude": {
+                "feet": 650,
+                "meters": 198
+              },
+              "speed": {
+                "kmh": 320.4,
+                "kts": 173,
+                "mph": 199.1
+              },
+              "verticalSpeed": {
+                "fpm": 2240,
+                "ms": 11.4
+              },
+              "heading": 193,
+              "squawk": "0",
+              "timestamp": 1565724296,
+              "ems": null
+            },
+            {
+              "latitude": 13.648819,
+              "longitude": 100.749931,
+              "altitude": {
+                "feet": 1025,
+                "meters": 312
+              },
+              "speed": {
+                "kmh": 318.5,
+                "kts": 172,
+                "mph": 197.9
+              },
+              "verticalSpeed": {
+                "fpm": 2304,
+                "ms": 11.7
+              },
+              "heading": 193,
+              "squawk": "0",
+              "timestamp": 1565724307,
+              "ems": null
+            },
+            {
+              "latitude": 13.639945,
+              "longitude": 100.747665,
+              "altitude": {
+                "feet": 1400,
+                "meters": 427
+              },
+              "speed": {
+                "kmh": 320.4,
+                "kts": 173,
+                "mph": 199.1
+              },
+              "verticalSpeed": {
+                "fpm": 2048,
+                "ms": 10.4
+              },
+              "heading": 194,
+              "squawk": "0",
+              "timestamp": 1565724317,
+              "ems": null
+            },
+            {
+              "latitude": 13.63179,
+              "longitude": 100.745483,
+              "altitude": {
+                "feet": 1725,
+                "meters": 526
+              },
+              "speed": {
+                "kmh": 324.1,
+                "kts": 175,
+                "mph": 201.4
+              },
+              "verticalSpeed": {
+                "fpm": 2176,
+                "ms": 11.1
+              },
+              "heading": 194,
+              "squawk": "0",
+              "timestamp": 1565724327,
+              "ems": null
+            },
+            {
+              "latitude": 13.624054,
+              "longitude": 100.743446,
+              "altitude": {
+                "feet": 2075,
+                "meters": 632
+              },
+              "speed": {
+                "kmh": 322.2,
+                "kts": 174,
+                "mph": 200.2
+              },
+              "verticalSpeed": {
+                "fpm": 2048,
+                "ms": 10.4
+              },
+              "heading": 194,
+              "squawk": "0",
+              "timestamp": 1565724336,
+              "ems": null
+            },
+            {
+              "latitude": 13.615677,
+              "longitude": 100.741173,
+              "altitude": {
+                "feet": 2400,
+                "meters": 732
+              },
+              "speed": {
+                "kmh": 322.2,
+                "kts": 174,
+                "mph": 200.2
+              },
+              "verticalSpeed": {
+                "fpm": 1984,
+                "ms": 10.1
+              },
+              "heading": 194,
+              "squawk": "720",
+              "timestamp": 1565724348,
+              "ems": null
+            },
+            {
+              "latitude": 13.608215,
+              "longitude": 100.739182,
+              "altitude": {
+                "feet": 2725,
+                "meters": 831
+              },
+              "speed": {
+                "kmh": 322.2,
+                "kts": 174,
+                "mph": 200.2
+              },
+              "verticalSpeed": {
+                "fpm": 1984,
+                "ms": 10.1
+              },
+              "heading": 194,
+              "squawk": "720",
+              "timestamp": 1565724357,
+              "ems": null
+            },
+            {
+              "latitude": 13.595947,
+              "longitude": 100.735962,
+              "altitude": {
+                "feet": 3175,
+                "meters": 968
+              },
+              "speed": {
+                "kmh": 322.2,
+                "kts": 174,
+                "mph": 200.2
+              },
+              "verticalSpeed": {
+                "fpm": 1728,
+                "ms": 8.8
+              },
+              "heading": 194,
+              "squawk": "720",
+              "timestamp": 1565724372,
+              "ems": null
+            },
+            {
+              "latitude": 13.587524,
+              "longitude": 100.734589,
+              "altitude": {
+                "feet": 3400,
+                "meters": 1036
+              },
+              "speed": {
+                "kmh": 337.1,
+                "kts": 182,
+                "mph": 209.4
+              },
+              "verticalSpeed": {
+                "fpm": 1280,
+                "ms": 6.5
+              },
+              "heading": 183,
+              "squawk": "720",
+              "timestamp": 1565724383,
+              "ems": null
+            },
+            {
+              "latitude": 13.582626,
+              "longitude": 100.735252,
+              "altitude": {
+                "feet": 3450,
+                "meters": 1052
+              },
+              "speed": {
+                "kmh": 353.7,
+                "kts": 191,
+                "mph": 219.8
+              },
+              "verticalSpeed": {
+                "fpm": 1152,
+                "ms": 5.9
+              },
+              "heading": 171,
+              "squawk": "720",
+              "timestamp": 1565724389,
+              "ems": null
+            },
+            {
+              "latitude": 13.573748,
+              "longitude": 100.740005,
+              "altitude": {
+                "feet": 3600,
+                "meters": 1097
+              },
+              "speed": {
+                "kmh": 385.2,
+                "kts": 208,
+                "mph": 239.4
+              },
+              "verticalSpeed": {
+                "fpm": 1216,
+                "ms": 6.2
+              },
+              "heading": 145,
+              "squawk": "720",
+              "timestamp": 1565724398,
+              "ems": null
+            },
+            {
+              "latitude": 13.570267,
+              "longitude": 100.742737,
+              "altitude": {
+                "feet": 3650,
+                "meters": 1113
+              },
+              "speed": {
+                "kmh": 390.8,
+                "kts": 211,
+                "mph": 242.8
+              },
+              "verticalSpeed": {
+                "fpm": 832,
+                "ms": 4.2
+              },
+              "heading": 142,
+              "squawk": "720",
+              "timestamp": 1565724404,
+              "ems": null
+            },
+            {
+              "latitude": 13.561738,
+              "longitude": 100.749878,
+              "altitude": {
+                "feet": 3750,
+                "meters": 1143
+              },
+              "speed": {
+                "kmh": 424.1,
+                "kts": 229,
+                "mph": 263.5
+              },
+              "verticalSpeed": {
+                "fpm": 704,
+                "ms": 3.6
+              },
+              "heading": 139,
+              "squawk": "720",
+              "timestamp": 1565724415,
+              "ems": null
+            },
+            {
+              "latitude": 13.553696,
+              "longitude": 100.757179,
+              "altitude": {
+                "feet": 3925,
+                "meters": 1196
+              },
+              "speed": {
+                "kmh": 451.9,
+                "kts": 244,
+                "mph": 280.8
+              },
+              "verticalSpeed": {
+                "fpm": 1088,
+                "ms": 5.5
+              },
+              "heading": 137,
+              "squawk": "720",
+              "timestamp": 1565724424,
+              "ems": null
+            },
+            {
+              "latitude": 13.544746,
+              "longitude": 100.76564,
+              "altitude": {
+                "feet": 4100,
+                "meters": 1250
+              },
+              "speed": {
+                "kmh": 483.4,
+                "kts": 261,
+                "mph": 300.4
+              },
+              "verticalSpeed": {
+                "fpm": 1216,
+                "ms": 6.2
+              },
+              "heading": 137,
+              "squawk": "720",
+              "timestamp": 1565724434,
+              "ems": null
+            },
+            {
+              "latitude": 13.534458,
+              "longitude": 100.775322,
+              "altitude": {
+                "feet": 4400,
+                "meters": 1341
+              },
+              "speed": {
+                "kmh": 509.3,
+                "kts": 275,
+                "mph": 316.5
+              },
+              "verticalSpeed": {
+                "fpm": 2112,
+                "ms": 10.7
+              },
+              "heading": 137,
+              "squawk": "720",
+              "timestamp": 1565724444,
+              "ems": null
+            },
+            {
+              "latitude": 13.525147,
+              "longitude": 100.784431,
+              "altitude": {
+                "feet": 4825,
+                "meters": 1471
+              },
+              "speed": {
+                "kmh": 524.1,
+                "kts": 283,
+                "mph": 325.7
+              },
+              "verticalSpeed": {
+                "fpm": 2816,
+                "ms": 14.3
+              },
+              "heading": 136,
+              "squawk": "720",
+              "timestamp": 1565724455,
+              "ems": null
+            },
+            {
+              "latitude": 13.516525,
+              "longitude": 100.795868,
+              "altitude": {
+                "feet": 5325,
+                "meters": 1623
+              },
+              "speed": {
+                "kmh": 535.2,
+                "kts": 289,
+                "mph": 332.6
+              },
+              "verticalSpeed": {
+                "fpm": 3328,
+                "ms": 16.9
+              },
+              "heading": 123,
+              "squawk": "720",
+              "timestamp": 1565724465,
+              "ems": null
+            },
+            {
+              "latitude": 13.512392,
+              "longitude": 100.808281,
+              "altitude": {
+                "feet": 5900,
+                "meters": 1798
+              },
+              "speed": {
+                "kmh": 531.5,
+                "kts": 287,
+                "mph": 330.3
+              },
+              "verticalSpeed": {
+                "fpm": 3584,
+                "ms": 18.2
+              },
+              "heading": 104,
+              "squawk": "720",
+              "timestamp": 1565724476,
+              "ems": null
+            },
+            {
+              "latitude": 13.512039,
+              "longitude": 100.822952,
+              "altitude": {
+                "feet": 6475,
+                "meters": 1974
+              },
+              "speed": {
+                "kmh": 529.7,
+                "kts": 286,
+                "mph": 329.1
+              },
+              "verticalSpeed": {
+                "fpm": 3328,
+                "ms": 16.9
+              },
+              "heading": 87,
+              "squawk": "720",
+              "timestamp": 1565724486,
+              "ems": null
+            },
+            {
+              "latitude": 13.513184,
+              "longitude": 100.836121,
+              "altitude": {
+                "feet": 6950,
+                "meters": 2118
+              },
+              "speed": {
+                "kmh": 535.2,
+                "kts": 289,
+                "mph": 332.6
+              },
+              "verticalSpeed": {
+                "fpm": 2752,
+                "ms": 14
+              },
+              "heading": 84,
+              "squawk": "720",
+              "timestamp": 1565724496,
+              "ems": null
+            },
+            {
+              "latitude": 13.514394,
+              "longitude": 100.851746,
+              "altitude": {
+                "feet": 7400,
+                "meters": 2256
+              },
+              "speed": {
+                "kmh": 544.5,
+                "kts": 294,
+                "mph": 338.3
+              },
+              "verticalSpeed": {
+                "fpm": 2624,
+                "ms": 13.3
+              },
+              "heading": 85,
+              "squawk": "720",
+              "timestamp": 1565724507,
+              "ems": null
+            },
+            {
+              "latitude": 13.51561,
+              "longitude": 100.872063,
+              "altitude": {
+                "feet": 8050,
+                "meters": 2454
+              },
+              "speed": {
+                "kmh": 553.7,
+                "kts": 299,
+                "mph": 344.1
+              },
+              "verticalSpeed": {
+                "fpm": 3008,
+                "ms": 15.3
+              },
+              "heading": 86,
+              "squawk": "720",
+              "timestamp": 1565724522,
+              "ems": null
+            },
+            {
+              "latitude": 13.516442,
+              "longitude": 100.887352,
+              "altitude": {
+                "feet": 8500,
+                "meters": 2591
+              },
+              "speed": {
+                "kmh": 559.3,
+                "kts": 302,
+                "mph": 347.5
+              },
+              "verticalSpeed": {
+                "fpm": 2752,
+                "ms": 14
+              },
+              "heading": 86,
+              "squawk": "720",
+              "timestamp": 1565724532,
+              "ems": null
+            },
+            {
+              "latitude": 13.51767,
+              "longitude": 100.909943,
+              "altitude": {
+                "feet": 9200,
+                "meters": 2804
+              },
+              "speed": {
+                "kmh": 568.6,
+                "kts": 307,
+                "mph": 353.3
+              },
+              "verticalSpeed": {
+                "fpm": 2816,
+                "ms": 14.3
+              },
+              "heading": 86,
+              "squawk": "720",
+              "timestamp": 1565724548,
+              "ems": null
+            },
+            {
+              "latitude": 13.518956,
+              "longitude": 100.933517,
+              "altitude": {
+                "feet": 9925,
+                "meters": 3025
+              },
+              "speed": {
+                "kmh": 572.3,
+                "kts": 309,
+                "mph": 355.6
+              },
+              "verticalSpeed": {
+                "fpm": 2944,
+                "ms": 15
+              },
+              "heading": 86,
+              "squawk": "720",
+              "timestamp": 1565724563,
+              "ems": null
+            },
+            {
+              "latitude": 13.520306,
+              "longitude": 100.956406,
+              "altitude": {
+                "feet": 10525,
+                "meters": 3208
+              },
+              "speed": {
+                "kmh": 583.4,
+                "kts": 315,
+                "mph": 362.5
+              },
+              "verticalSpeed": {
+                "fpm": 1856,
+                "ms": 9.4
+              },
+              "heading": 86,
+              "squawk": "720",
+              "timestamp": 1565724579,
+              "ems": null
+            },
+            {
+              "latitude": 13.521284,
+              "longitude": 100.972786,
+              "altitude": {
+                "feet": 10675,
+                "meters": 3254
+              },
+              "speed": {
+                "kmh": 609.3,
+                "kts": 329,
+                "mph": 378.6
+              },
+              "verticalSpeed": {
+                "fpm": 960,
+                "ms": 4.9
+              },
+              "heading": 86,
+              "squawk": "720",
+              "timestamp": 1565724590,
+              "ems": null
+            },
+            {
+              "latitude": 13.522727,
+              "longitude": 100.99736,
+              "altitude": {
+                "feet": 10950,
+                "meters": 3338
+              },
+              "speed": {
+                "kmh": 642.6,
+                "kts": 347,
+                "mph": 399.3
+              },
+              "verticalSpeed": {
+                "fpm": 1152,
+                "ms": 5.9
+              },
+              "heading": 86,
+              "squawk": "720",
+              "timestamp": 1565724605,
+              "ems": null
+            },
+            {
+              "latitude": 13.524263,
+              "longitude": 101.02314,
+              "altitude": {
+                "feet": 11250,
+                "meters": 3429
+              },
+              "speed": {
+                "kmh": 672.3,
+                "kts": 363,
+                "mph": 417.7
+              },
+              "verticalSpeed": {
+                "fpm": 1600,
+                "ms": 8.1
+              },
+              "heading": 86,
+              "squawk": "720",
+              "timestamp": 1565724621,
+              "ems": null
+            },
+            {
+              "latitude": 13.527054,
+              "longitude": 101.050682,
+              "altitude": {
+                "feet": 11775,
+                "meters": 3589
+              },
+              "speed": {
+                "kmh": 688.9,
+                "kts": 372,
+                "mph": 428.1
+              },
+              "verticalSpeed": {
+                "fpm": 2112,
+                "ms": 10.7
+              },
+              "heading": 80,
+              "squawk": "720",
+              "timestamp": 1565724637,
+              "ems": null
+            },
+            {
+              "latitude": 13.532593,
+              "longitude": 101.066925,
+              "altitude": {
+                "feet": 12225,
+                "meters": 3726
+              },
+              "speed": {
+                "kmh": 688.9,
+                "kts": 372,
+                "mph": 428.1
+              },
+              "verticalSpeed": {
+                "fpm": 2432,
+                "ms": 12.4
+              },
+              "heading": 66,
+              "squawk": "720",
+              "timestamp": 1565724646,
+              "ems": null
+            },
+            {
+              "latitude": 13.542,
+              "longitude": 101.083519,
+              "altitude": {
+                "feet": 12750,
+                "meters": 3886
+              },
+              "speed": {
+                "kmh": 687.1,
+                "kts": 371,
+                "mph": 426.9
+              },
+              "verticalSpeed": {
+                "fpm": 3264,
+                "ms": 16.6
+              },
+              "heading": 58,
+              "squawk": "720",
+              "timestamp": 1565724657,
+              "ems": null
+            },
+            {
+              "latitude": 13.550099,
+              "longitude": 101.097206,
+              "altitude": {
+                "feet": 13200,
+                "meters": 4023
+              },
+              "speed": {
+                "kmh": 688.9,
+                "kts": 372,
+                "mph": 428.1
+              },
+              "verticalSpeed": {
+                "fpm": 2816,
+                "ms": 14.3
+              },
+              "heading": 59,
+              "squawk": "720",
+              "timestamp": 1565724667,
+              "ems": null
+            },
+            {
+              "latitude": 13.577612,
+              "longitude": 101.146591,
+              "altitude": {
+                "feet": 14425,
+                "meters": 4397
+              },
+              "speed": {
+                "kmh": 701.9,
+                "kts": 379,
+                "mph": 436.1
+              },
+              "verticalSpeed": {
+                "fpm": 2176,
+                "ms": 11.1
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565724698,
+              "ems": null
+            },
+            {
+              "latitude": 13.604845,
+              "longitude": 101.196899,
+              "altitude": {
+                "feet": 15500,
+                "meters": 4724
+              },
+              "speed": {
+                "kmh": 722.3,
+                "kts": 390,
+                "mph": 448.8
+              },
+              "verticalSpeed": {
+                "fpm": 2304,
+                "ms": 11.7
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565724729,
+              "ems": null
+            },
+            {
+              "latitude": 13.636826,
+              "longitude": 101.254784,
+              "altitude": {
+                "feet": 16800,
+                "meters": 5121
+              },
+              "speed": {
+                "kmh": 740.8,
+                "kts": 400,
+                "mph": 460.3
+              },
+              "verticalSpeed": {
+                "fpm": 2240,
+                "ms": 11.4
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565724764,
+              "ems": null
+            },
+            {
+              "latitude": 13.670105,
+              "longitude": 101.315399,
+              "altitude": {
+                "feet": 18125,
+                "meters": 5525
+              },
+              "speed": {
+                "kmh": 753.8,
+                "kts": 407,
+                "mph": 468.4
+              },
+              "verticalSpeed": {
+                "fpm": 2240,
+                "ms": 11.4
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565724800,
+              "ems": null
+            },
+            {
+              "latitude": 13.726998,
+              "longitude": 101.418167,
+              "altitude": {
+                "feet": 20225,
+                "meters": 6165
+              },
+              "speed": {
+                "kmh": 772.3,
+                "kts": 417,
+                "mph": 479.9
+              },
+              "verticalSpeed": {
+                "fpm": 2176,
+                "ms": 11.1
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565724860,
+              "ems": null
+            },
+            {
+              "latitude": 13.787064,
+              "longitude": 101.52755,
+              "altitude": {
+                "feet": 22375,
+                "meters": 6820
+              },
+              "speed": {
+                "kmh": 777.8,
+                "kts": 420,
+                "mph": 483.3
+              },
+              "verticalSpeed": {
+                "fpm": 2176,
+                "ms": 11.1
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565724923,
+              "ems": null
+            },
+            {
+              "latitude": 13.846916,
+              "longitude": 101.636353,
+              "altitude": {
+                "feet": 24000,
+                "meters": 7315
+              },
+              "speed": {
+                "kmh": 803.8,
+                "kts": 434,
+                "mph": 499.4
+              },
+              "verticalSpeed": {
+                "fpm": 1792,
+                "ms": 9.1
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565724985,
+              "ems": null
+            },
+            {
+              "latitude": 13.908783,
+              "longitude": 101.749405,
+              "altitude": {
+                "feet": 25450,
+                "meters": 7757
+              },
+              "speed": {
+                "kmh": 826,
+                "kts": 446,
+                "mph": 513.2
+              },
+              "verticalSpeed": {
+                "fpm": 1856,
+                "ms": 9.4
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565725046,
+              "ems": null
+            },
+            {
+              "latitude": 13.969489,
+              "longitude": 101.860222,
+              "altitude": {
+                "feet": 27275,
+                "meters": 8313
+              },
+              "speed": {
+                "kmh": 818.6,
+                "kts": 442,
+                "mph": 508.6
+              },
+              "verticalSpeed": {
+                "fpm": 1728,
+                "ms": 8.8
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565725106,
+              "ems": null
+            },
+            {
+              "latitude": 14.032562,
+              "longitude": 101.975243,
+              "altitude": {
+                "feet": 28475,
+                "meters": 8679
+              },
+              "speed": {
+                "kmh": 839,
+                "kts": 453,
+                "mph": 521.3
+              },
+              "verticalSpeed": {
+                "fpm": 960,
+                "ms": 4.9
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565725169,
+              "ems": null
+            },
+            {
+              "latitude": 14.096008,
+              "longitude": 102.0914,
+              "altitude": {
+                "feet": 29575,
+                "meters": 9014
+              },
+              "speed": {
+                "kmh": 855.6,
+                "kts": 462,
+                "mph": 531.7
+              },
+              "verticalSpeed": {
+                "fpm": 1152,
+                "ms": 5.9
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565725230,
+              "ems": null
+            },
+            {
+              "latitude": 14.159317,
+              "longitude": 102.207611,
+              "altitude": {
+                "feet": 30750,
+                "meters": 9373
+              },
+              "speed": {
+                "kmh": 866.7,
+                "kts": 468,
+                "mph": 538.6
+              },
+              "verticalSpeed": {
+                "fpm": 2176,
+                "ms": 11.1
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565725291,
+              "ems": null
+            },
+            {
+              "latitude": 14.223524,
+              "longitude": 102.3255,
+              "altitude": {
+                "feet": 32900,
+                "meters": 10028
+              },
+              "speed": {
+                "kmh": 824.1,
+                "kts": 445,
+                "mph": 512.1
+              },
+              "verticalSpeed": {
+                "fpm": 2560,
+                "ms": 13
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565725351,
+              "ems": null
+            },
+            {
+              "latitude": 14.283234,
+              "longitude": 102.434959,
+              "altitude": {
+                "feet": 34875,
+                "meters": 10630
+              },
+              "speed": {
+                "kmh": 781.5,
+                "kts": 422,
+                "mph": 485.6
+              },
+              "verticalSpeed": {
+                "fpm": 1920,
+                "ms": 9.8
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565725413,
+              "ems": null
+            },
+            {
+              "latitude": 14.340184,
+              "longitude": 102.539879,
+              "altitude": {
+                "feet": 36300,
+                "meters": 11064
+              },
+              "speed": {
+                "kmh": 753.8,
+                "kts": 407,
+                "mph": 468.4
+              },
+              "verticalSpeed": {
+                "fpm": 1216,
+                "ms": 6.2
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565725473,
+              "ems": null
+            },
+            {
+              "latitude": 14.390167,
+              "longitude": 102.643982,
+              "altitude": {
+                "feet": 36950,
+                "meters": 11262
+              },
+              "speed": {
+                "kmh": 757.5,
+                "kts": 409,
+                "mph": 470.7
+              },
+              "verticalSpeed": {
+                "fpm": 384,
+                "ms": 2
+              },
+              "heading": 69,
+              "squawk": "720",
+              "timestamp": 1565725534,
+              "ems": null
+            },
+            {
+              "latitude": 14.431752,
+              "longitude": 102.75956,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 794.5,
+                "kts": 429,
+                "mph": 493.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 69,
+              "squawk": "720",
+              "timestamp": 1565725595,
+              "ems": null
+            },
+            {
+              "latitude": 14.471008,
+              "longitude": 102.880852,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 831.5,
+                "kts": 449,
+                "mph": 516.7
+              },
+              "verticalSpeed": {
+                "fpm": 64,
+                "ms": 0.3
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565725658,
+              "ems": null
+            },
+            {
+              "latitude": 14.509918,
+              "longitude": 103.008194,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 855.6,
+                "kts": 462,
+                "mph": 531.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565725718,
+              "ems": null
+            },
+            {
+              "latitude": 14.55162,
+              "longitude": 103.141685,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 855.6,
+                "kts": 462,
+                "mph": 531.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565725782,
+              "ems": null
+            },
+            {
+              "latitude": 14.593048,
+              "longitude": 103.274895,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 855.6,
+                "kts": 462,
+                "mph": 531.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565725846,
+              "ems": null
+            },
+            {
+              "latitude": 14.634395,
+              "longitude": 103.408478,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 857.5,
+                "kts": 463,
+                "mph": 532.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565725908,
+              "ems": null
+            },
+            {
+              "latitude": 14.675491,
+              "longitude": 103.541359,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 861.2,
+                "kts": 465,
+                "mph": 535.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565725971,
+              "ems": null
+            },
+            {
+              "latitude": 14.715209,
+              "longitude": 103.669785,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 864.9,
+                "kts": 467,
+                "mph": 537.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726032,
+              "ems": null
+            },
+            {
+              "latitude": 14.756268,
+              "longitude": 103.803162,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 861.2,
+                "kts": 465,
+                "mph": 535.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726094,
+              "ems": null
+            },
+            {
+              "latitude": 14.797513,
+              "longitude": 103.937508,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 861.2,
+                "kts": 465,
+                "mph": 535.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726159,
+              "ems": null
+            },
+            {
+              "latitude": 14.837036,
+              "longitude": 104.065979,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 859.3,
+                "kts": 464,
+                "mph": 534
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726219,
+              "ems": null
+            },
+            {
+              "latitude": 14.877723,
+              "longitude": 104.199043,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 861.2,
+                "kts": 465,
+                "mph": 535.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726282,
+              "ems": null
+            },
+            {
+              "latitude": 14.919205,
+              "longitude": 104.334892,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 866.7,
+                "kts": 468,
+                "mph": 538.6
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726345,
+              "ems": null
+            },
+            {
+              "latitude": 14.960167,
+              "longitude": 104.469238,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 861.2,
+                "kts": 465,
+                "mph": 535.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726409,
+              "ems": null
+            },
+            {
+              "latitude": 15.000574,
+              "longitude": 104.602158,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 859.3,
+                "kts": 464,
+                "mph": 534
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726473,
+              "ems": null
+            },
+            {
+              "latitude": 15.041401,
+              "longitude": 104.736641,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 859.3,
+                "kts": 464,
+                "mph": 534
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726535,
+              "ems": null
+            },
+            {
+              "latitude": 15.07988,
+              "longitude": 104.863922,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 859.3,
+                "kts": 464,
+                "mph": 534
+              },
+              "verticalSpeed": {
+                "fpm": 64,
+                "ms": 0.3
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726595,
+              "ems": null
+            },
+            {
+              "latitude": 15.119887,
+              "longitude": 104.996193,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 857.5,
+                "kts": 463,
+                "mph": 532.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726659,
+              "ems": null
+            },
+            {
+              "latitude": 15.1609,
+              "longitude": 105.132294,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 861.2,
+                "kts": 465,
+                "mph": 535.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726722,
+              "ems": null
+            },
+            {
+              "latitude": 15.201075,
+              "longitude": 105.265991,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 861.2,
+                "kts": 465,
+                "mph": 535.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726785,
+              "ems": null
+            },
+            {
+              "latitude": 15.241901,
+              "longitude": 105.402443,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 863,
+                "kts": 466,
+                "mph": 536.3
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726849,
+              "ems": null
+            },
+            {
+              "latitude": 15.280014,
+              "longitude": 105.5298,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 861.2,
+                "kts": 465,
+                "mph": 535.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726909,
+              "ems": null
+            },
+            {
+              "latitude": 15.319783,
+              "longitude": 105.662971,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 863,
+                "kts": 466,
+                "mph": 536.3
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565726972,
+              "ems": null
+            },
+            {
+              "latitude": 15.359802,
+              "longitude": 105.797615,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 859.3,
+                "kts": 464,
+                "mph": 534
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565727035,
+              "ems": null
+            },
+            {
+              "latitude": 15.391251,
+              "longitude": 105.886856,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 853.8,
+                "kts": 461,
+                "mph": 530.5
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 61,
+              "squawk": "720",
+              "timestamp": 1565727078,
+              "ems": null
+            },
+            {
+              "latitude": 15.398829,
+              "longitude": 105.899132,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 851.9,
+                "kts": 460,
+                "mph": 529.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565727084,
+              "ems": null
+            },
+            {
+              "latitude": 15.405579,
+              "longitude": 105.908539,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 851.9,
+                "kts": 460,
+                "mph": 529.4
+              },
+              "verticalSpeed": {
+                "fpm": 64,
+                "ms": 0.3
+              },
+              "heading": 53,
+              "squawk": "720",
+              "timestamp": 1565727090,
+              "ems": null
+            },
+            {
+              "latitude": 15.417755,
+              "longitude": 105.923912,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 851.9,
+                "kts": 460,
+                "mph": 529.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 50,
+              "squawk": "720",
+              "timestamp": 1565727098,
+              "ems": null
+            },
+            {
+              "latitude": 15.426388,
+              "longitude": 105.934052,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 851.9,
+                "kts": 460,
+                "mph": 529.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565727104,
+              "ems": null
+            },
+            {
+              "latitude": 15.435884,
+              "longitude": 105.94558,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 853.8,
+                "kts": 461,
+                "mph": 530.5
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565727111,
+              "ems": null
+            },
+            {
+              "latitude": 15.521308,
+              "longitude": 106.05323,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 857.5,
+                "kts": 463,
+                "mph": 532.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 54,
+              "squawk": "720",
+              "timestamp": 1565727174,
+              "ems": null
+            },
+            {
+              "latitude": 15.604031,
+              "longitude": 106.164368,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 863,
+                "kts": 466,
+                "mph": 536.3
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 48,
+              "squawk": "720",
+              "timestamp": 1565727237,
+              "ems": null
+            },
+            {
+              "latitude": 15.689163,
+              "longitude": 106.265984,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 868.6,
+                "kts": 469,
+                "mph": 539.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565727297,
+              "ems": null
+            },
+            {
+              "latitude": 15.7798,
+              "longitude": 106.373581,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 870.4,
+                "kts": 470,
+                "mph": 540.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 48,
+              "squawk": "720",
+              "timestamp": 1565727360,
+              "ems": null
+            },
+            {
+              "latitude": 15.867377,
+              "longitude": 106.483856,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 866.7,
+                "kts": 468,
+                "mph": 538.6
+              },
+              "verticalSpeed": {
+                "fpm": -64,
+                "ms": -0.3
+              },
+              "heading": 56,
+              "squawk": "720",
+              "timestamp": 1565727424,
+              "ems": null
+            },
+            {
+              "latitude": 15.882935,
+              "longitude": 106.512741,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 866.7,
+                "kts": 468,
+                "mph": 538.6
+              },
+              "verticalSpeed": {
+                "fpm": -128,
+                "ms": -0.7
+              },
+              "heading": 59,
+              "squawk": "720",
+              "timestamp": 1565727439,
+              "ems": null
+            },
+            {
+              "latitude": 15.939697,
+              "longitude": 106.701149,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 863,
+                "kts": 466,
+                "mph": 536.3
+              },
+              "verticalSpeed": {
+                "fpm": 64,
+                "ms": 0.3
+              },
+              "heading": 73,
+              "squawk": "720",
+              "timestamp": 1565727527,
+              "ems": null
+            },
+            {
+              "latitude": 15.965508,
+              "longitude": 106.838608,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 868.6,
+                "kts": 469,
+                "mph": 539.7
+              },
+              "verticalSpeed": {
+                "fpm": 128,
+                "ms": 0.7
+              },
+              "heading": 81,
+              "squawk": "720",
+              "timestamp": 1565727590,
+              "ems": null
+            },
+            {
+              "latitude": 16.002136,
+              "longitude": 106.975037,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 877.8,
+                "kts": 474,
+                "mph": 545.5
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 73,
+              "squawk": "720",
+              "timestamp": 1565727653,
+              "ems": null
+            },
+            {
+              "latitude": 16.041296,
+              "longitude": 107.111748,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 883.4,
+                "kts": 477,
+                "mph": 548.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 73,
+              "squawk": "720",
+              "timestamp": 1565727714,
+              "ems": null
+            },
+            {
+              "latitude": 16.080505,
+              "longitude": 107.250801,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 881.6,
+                "kts": 476,
+                "mph": 547.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 73,
+              "squawk": "720",
+              "timestamp": 1565727777,
+              "ems": null
+            },
+            {
+              "latitude": 16.101196,
+              "longitude": 107.322357,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 881.6,
+                "kts": 476,
+                "mph": 547.8
+              },
+              "verticalSpeed": {
+                "fpm": 64,
+                "ms": 0.3
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565727811,
+              "ems": null
+            },
+            {
+              "latitude": 16.135611,
+              "longitude": 107.424118,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 881.6,
+                "kts": 476,
+                "mph": 547.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 70,
+              "squawk": "720",
+              "timestamp": 1565727857,
+              "ems": null
+            },
+            {
+              "latitude": 16.208651,
+              "longitude": 107.63855,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 879.7,
+                "kts": 475,
+                "mph": 546.6
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 70,
+              "squawk": "720",
+              "timestamp": 1565727957,
+              "ems": null
+            },
+            {
+              "latitude": 16.253668,
+              "longitude": 107.771027,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 887.1,
+                "kts": 479,
+                "mph": 551.2
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 70,
+              "squawk": "720",
+              "timestamp": 1565728019,
+              "ems": null
+            },
+            {
+              "latitude": 16.298996,
+              "longitude": 107.901306,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 883.4,
+                "kts": 477,
+                "mph": 548.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 70,
+              "squawk": "720",
+              "timestamp": 1565728079,
+              "ems": null
+            },
+            {
+              "latitude": 16.347284,
+              "longitude": 108.038277,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 881.6,
+                "kts": 476,
+                "mph": 547.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 69,
+              "squawk": "720",
+              "timestamp": 1565728142,
+              "ems": null
+            },
+            {
+              "latitude": 16.393837,
+              "longitude": 108.169472,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 885.3,
+                "kts": 478,
+                "mph": 550.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 69,
+              "squawk": "720",
+              "timestamp": 1565728204,
+              "ems": null
+            },
+            {
+              "latitude": 16.438065,
+              "longitude": 108.293633,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 887.1,
+                "kts": 479,
+                "mph": 551.2
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 69,
+              "squawk": "720",
+              "timestamp": 1565728261,
+              "ems": null
+            },
+            {
+              "latitude": 16.506271,
+              "longitude": 108.48262,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 883.4,
+                "kts": 477,
+                "mph": 548.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 69,
+              "squawk": "720",
+              "timestamp": 1565728348,
+              "ems": null
+            },
+            {
+              "latitude": 16.555573,
+              "longitude": 108.619179,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 69,
+              "squawk": "720",
+              "timestamp": 1565728413,
+              "ems": null
+            },
+            {
+              "latitude": 16.603271,
+              "longitude": 108.751205,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 892.7,
+                "kts": 482,
+                "mph": 554.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 69,
+              "squawk": "720",
+              "timestamp": 1565728473,
+              "ems": null
+            },
+            {
+              "latitude": 16.652664,
+              "longitude": 108.888969,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 894.5,
+                "kts": 483,
+                "mph": 555.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 69,
+              "squawk": "720",
+              "timestamp": 1565728537,
+              "ems": null
+            },
+            {
+              "latitude": 16.700569,
+              "longitude": 109.022484,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 885.3,
+                "kts": 478,
+                "mph": 550.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 69,
+              "squawk": "720",
+              "timestamp": 1565728597,
+              "ems": null
+            },
+            {
+              "latitude": 16.747055,
+              "longitude": 109.152878,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 879.7,
+                "kts": 475,
+                "mph": 546.6
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 69,
+              "squawk": "720",
+              "timestamp": 1565728659,
+              "ems": null
+            },
+            {
+              "latitude": 16.763443,
+              "longitude": 109.212677,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 876,
+                "kts": 473,
+                "mph": 544.3
+              },
+              "verticalSpeed": {
+                "fpm": -320,
+                "ms": -1.6
+              },
+              "heading": 80,
+              "squawk": "720",
+              "timestamp": 1565728684,
+              "ems": null
+            },
+            {
+              "latitude": 16.764578,
+              "longitude": 109.226219,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 874.1,
+                "kts": 472,
+                "mph": 543.2
+              },
+              "verticalSpeed": {
+                "fpm": -256,
+                "ms": -1.3
+              },
+              "heading": 85,
+              "squawk": "720",
+              "timestamp": 1565728690,
+              "ems": null
+            },
+            {
+              "latitude": 16.764816,
+              "longitude": 109.233444,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 874.1,
+                "kts": 472,
+                "mph": 543.2
+              },
+              "verticalSpeed": {
+                "fpm": -320,
+                "ms": -1.6
+              },
+              "heading": 87,
+              "squawk": "720",
+              "timestamp": 1565728696,
+              "ems": null
+            },
+            {
+              "latitude": 16.745258,
+              "longitude": 109.368355,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 874.1,
+                "kts": 472,
+                "mph": 543.2
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 99,
+              "squawk": "720",
+              "timestamp": 1565728755,
+              "ems": null
+            },
+            {
+              "latitude": 16.741608,
+              "longitude": 109.416458,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 879.7,
+                "kts": 475,
+                "mph": 546.6
+              },
+              "verticalSpeed": {
+                "fpm": 320,
+                "ms": 1.6
+              },
+              "heading": 89,
+              "squawk": "720",
+              "timestamp": 1565728777,
+              "ems": null
+            },
+            {
+              "latitude": 16.74391,
+              "longitude": 109.436676,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 881.6,
+                "kts": 476,
+                "mph": 547.8
+              },
+              "verticalSpeed": {
+                "fpm": 384,
+                "ms": 2
+              },
+              "heading": 81,
+              "squawk": "720",
+              "timestamp": 1565728785,
+              "ems": null
+            },
+            {
+              "latitude": 16.747213,
+              "longitude": 109.452179,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 881.6,
+                "kts": 476,
+                "mph": 547.8
+              },
+              "verticalSpeed": {
+                "fpm": 320,
+                "ms": 1.6
+              },
+              "heading": 76,
+              "squawk": "720",
+              "timestamp": 1565728791,
+              "ems": null
+            },
+            {
+              "latitude": 16.75264,
+              "longitude": 109.46917,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 883.4,
+                "kts": 477,
+                "mph": 548.9
+              },
+              "verticalSpeed": {
+                "fpm": 192,
+                "ms": 1
+              },
+              "heading": 71,
+              "squawk": "720",
+              "timestamp": 1565728800,
+              "ems": null
+            },
+            {
+              "latitude": 16.757782,
+              "longitude": 109.482391,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 885.3,
+                "kts": 478,
+                "mph": 550.1
+              },
+              "verticalSpeed": {
+                "fpm": 192,
+                "ms": 1
+              },
+              "heading": 67,
+              "squawk": "720",
+              "timestamp": 1565728808,
+              "ems": null
+            },
+            {
+              "latitude": 16.77182,
+              "longitude": 109.509117,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 885.3,
+                "kts": 478,
+                "mph": 550.1
+              },
+              "verticalSpeed": {
+                "fpm": 192,
+                "ms": 1
+              },
+              "heading": 59,
+              "squawk": "720",
+              "timestamp": 1565728819,
+              "ems": null
+            },
+            {
+              "latitude": 16.782394,
+              "longitude": 109.525162,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 887.1,
+                "kts": 479,
+                "mph": 551.2
+              },
+              "verticalSpeed": {
+                "fpm": 128,
+                "ms": 0.7
+              },
+              "heading": 54,
+              "squawk": "720",
+              "timestamp": 1565728826,
+              "ems": null
+            },
+            {
+              "latitude": 16.787476,
+              "longitude": 109.53215,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": 128,
+                "ms": 0.7
+              },
+              "heading": 52,
+              "squawk": "720",
+              "timestamp": 1565728832,
+              "ems": null
+            },
+            {
+              "latitude": 16.871649,
+              "longitude": 109.641197,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 890.8,
+                "kts": 481,
+                "mph": 553.5
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 54,
+              "squawk": "720",
+              "timestamp": 1565728893,
+              "ems": null
+            },
+            {
+              "latitude": 16.948738,
+              "longitude": 109.759499,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 887.1,
+                "kts": 479,
+                "mph": 551.2
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 56,
+              "squawk": "720",
+              "timestamp": 1565728953,
+              "ems": null
+            },
+            {
+              "latitude": 17.02652,
+              "longitude": 109.880486,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 881.6,
+                "kts": 476,
+                "mph": 547.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 56,
+              "squawk": "720",
+              "timestamp": 1565729016,
+              "ems": null
+            },
+            {
+              "latitude": 17.101151,
+              "longitude": 109.996292,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 879.7,
+                "kts": 475,
+                "mph": 546.6
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 56,
+              "squawk": "720",
+              "timestamp": 1565729076,
+              "ems": null
+            },
+            {
+              "latitude": 17.173819,
+              "longitude": 110.109299,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 883.4,
+                "kts": 477,
+                "mph": 548.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 56,
+              "squawk": "720",
+              "timestamp": 1565729136,
+              "ems": null
+            },
+            {
+              "latitude": 17.261124,
+              "longitude": 110.24501,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 883.4,
+                "kts": 477,
+                "mph": 548.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 56,
+              "squawk": "720",
+              "timestamp": 1565729207,
+              "ems": null
+            },
+            {
+              "latitude": 17.794407,
+              "longitude": 111.071632,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 879.7,
+                "kts": 475,
+                "mph": 546.6
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 56,
+              "squawk": "720",
+              "timestamp": 1565729640,
+              "ems": null
+            },
+            {
+              "latitude": 17.829367,
+              "longitude": 111.126068,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 879.7,
+                "kts": 475,
+                "mph": 546.6
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 56,
+              "squawk": "720",
+              "timestamp": 1565729668,
+              "ems": null
+            },
+            {
+              "latitude": 19.44878,
+              "longitude": 112.898956,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 901.9,
+                "kts": 487,
+                "mph": 560.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 36,
+              "squawk": "720",
+              "timestamp": 1565730733,
+              "ems": null
+            },
+            {
+              "latitude": 19.652958,
+              "longitude": 113.06115,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 890.8,
+                "kts": 481,
+                "mph": 553.5
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 37,
+              "squawk": "720",
+              "timestamp": 1565730849,
+              "ems": null
+            },
+            {
+              "latitude": 19.770721,
+              "longitude": 113.155205,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 885.3,
+                "kts": 478,
+                "mph": 550.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 37,
+              "squawk": "720",
+              "timestamp": 1565730914,
+              "ems": null
+            },
+            {
+              "latitude": 19.882278,
+              "longitude": 113.244179,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 883.4,
+                "kts": 477,
+                "mph": 548.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 37,
+              "squawk": "720",
+              "timestamp": 1565730976,
+              "ems": null
+            },
+            {
+              "latitude": 19.950241,
+              "longitude": 113.302101,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 885.3,
+                "kts": 478,
+                "mph": 550.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 38,
+              "squawk": "720",
+              "timestamp": 1565731017,
+              "ems": null
+            },
+            {
+              "latitude": 20.098883,
+              "longitude": 113.43998,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 42,
+              "squawk": "720",
+              "timestamp": 1565731105,
+              "ems": null
+            },
+            {
+              "latitude": 20.19548,
+              "longitude": 113.539436,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 883.4,
+                "kts": 477,
+                "mph": 548.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 47,
+              "squawk": "720",
+              "timestamp": 1565731165,
+              "ems": null
+            },
+            {
+              "latitude": 20.291382,
+              "longitude": 113.64949,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 887.1,
+                "kts": 479,
+                "mph": 551.2
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 47,
+              "squawk": "720",
+              "timestamp": 1565731230,
+              "ems": null
+            },
+            {
+              "latitude": 20.314682,
+              "longitude": 113.67598,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 885.3,
+                "kts": 478,
+                "mph": 550.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 47,
+              "squawk": "720",
+              "timestamp": 1565731246,
+              "ems": null
+            },
+            {
+              "latitude": 20.436806,
+              "longitude": 113.858459,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 883.4,
+                "kts": 477,
+                "mph": 548.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565731340,
+              "ems": null
+            },
+            {
+              "latitude": 20.513718,
+              "longitude": 113.985558,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 887.1,
+                "kts": 479,
+                "mph": 551.2
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565731405,
+              "ems": null
+            },
+            {
+              "latitude": 20.589523,
+              "longitude": 114.110825,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 887.1,
+                "kts": 479,
+                "mph": 551.2
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565731468,
+              "ems": null
+            },
+            {
+              "latitude": 20.662582,
+              "longitude": 114.231445,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 890.8,
+                "kts": 481,
+                "mph": 553.5
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565731529,
+              "ems": null
+            },
+            {
+              "latitude": 20.738743,
+              "longitude": 114.35759,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 892.7,
+                "kts": 482,
+                "mph": 554.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565731591,
+              "ems": null
+            },
+            {
+              "latitude": 20.813644,
+              "longitude": 114.481956,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 892.7,
+                "kts": 482,
+                "mph": 554.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565731654,
+              "ems": null
+            },
+            {
+              "latitude": 20.891434,
+              "longitude": 114.611725,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 892.7,
+                "kts": 482,
+                "mph": 554.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565731717,
+              "ems": null
+            },
+            {
+              "latitude": 20.962784,
+              "longitude": 114.730568,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565731778,
+              "ems": null
+            },
+            {
+              "latitude": 21.03854,
+              "longitude": 114.856972,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 881.6,
+                "kts": 476,
+                "mph": 547.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565731840,
+              "ems": null
+            },
+            {
+              "latitude": 21.117508,
+              "longitude": 114.989349,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 885.3,
+                "kts": 478,
+                "mph": 550.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565731907,
+              "ems": null
+            },
+            {
+              "latitude": 21.192348,
+              "longitude": 115.115051,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565731971,
+              "ems": null
+            },
+            {
+              "latitude": 21.265091,
+              "longitude": 115.237694,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565732031,
+              "ems": null
+            },
+            {
+              "latitude": 21.33989,
+              "longitude": 115.363884,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 890.8,
+                "kts": 481,
+                "mph": 553.5
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565732094,
+              "ems": null
+            },
+            {
+              "latitude": 21.415512,
+              "longitude": 115.491478,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 883.4,
+                "kts": 477,
+                "mph": 548.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565732158,
+              "ems": null
+            },
+            {
+              "latitude": 21.487116,
+              "longitude": 115.613045,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 887.1,
+                "kts": 479,
+                "mph": 551.2
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565732218,
+              "ems": null
+            },
+            {
+              "latitude": 21.564011,
+              "longitude": 115.743515,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 885.3,
+                "kts": 478,
+                "mph": 550.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565732284,
+              "ems": null
+            },
+            {
+              "latitude": 21.621048,
+              "longitude": 115.840645,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565732332,
+              "ems": null
+            },
+            {
+              "latitude": 21.72821,
+              "longitude": 116.023514,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 890.8,
+                "kts": 481,
+                "mph": 553.5
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565732422,
+              "ems": null
+            },
+            {
+              "latitude": 21.759169,
+              "longitude": 116.076508,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 892.7,
+                "kts": 482,
+                "mph": 554.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 57,
+              "squawk": "720",
+              "timestamp": 1565732448,
+              "ems": null
+            },
+            {
+              "latitude": 22.031313,
+              "longitude": 116.543983,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 892.7,
+                "kts": 482,
+                "mph": 554.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 58,
+              "squawk": "720",
+              "timestamp": 1565732676,
+              "ems": null
+            },
+            {
+              "latitude": 22.052353,
+              "longitude": 116.580147,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 890.8,
+                "kts": 481,
+                "mph": 553.5
+              },
+              "verticalSpeed": {
+                "fpm": 64,
+                "ms": 0.3
+              },
+              "heading": 58,
+              "squawk": "720",
+              "timestamp": 1565732696,
+              "ems": null
+            },
+            {
+              "latitude": 22.132704,
+              "longitude": 116.719055,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 885.3,
+                "kts": 478,
+                "mph": 550.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 58,
+              "squawk": "720",
+              "timestamp": 1565732763,
+              "ems": null
+            },
+            {
+              "latitude": 22.238205,
+              "longitude": 116.902168,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 885.3,
+                "kts": 478,
+                "mph": 550.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 58,
+              "squawk": "720",
+              "timestamp": 1565732853,
+              "ems": null
+            },
+            {
+              "latitude": 22.309204,
+              "longitude": 117.025818,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 887.1,
+                "kts": 479,
+                "mph": 551.2
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 58,
+              "squawk": "720",
+              "timestamp": 1565732913,
+              "ems": null
+            },
+            {
+              "latitude": 22.379383,
+              "longitude": 117.148285,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 58,
+              "squawk": "720",
+              "timestamp": 1565732975,
+              "ems": null
+            },
+            {
+              "latitude": 22.452713,
+              "longitude": 117.276558,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 892.7,
+                "kts": 482,
+                "mph": 554.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 58,
+              "squawk": "720",
+              "timestamp": 1565733036,
+              "ems": null
+            },
+            {
+              "latitude": 22.511452,
+              "longitude": 117.391151,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": 64,
+                "ms": 0.3
+              },
+              "heading": 69,
+              "squawk": "720",
+              "timestamp": 1565733092,
+              "ems": null
+            },
+            {
+              "latitude": 22.55982,
+              "longitude": 117.547913,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 71,
+              "squawk": "720",
+              "timestamp": 1565733160,
+              "ems": null
+            },
+            {
+              "latitude": 22.586494,
+              "longitude": 117.634071,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 71,
+              "squawk": "720",
+              "timestamp": 1565733198,
+              "ems": null
+            },
+            {
+              "latitude": 22.652115,
+              "longitude": 117.847145,
+              "altitude": {
+                "feet": 36975,
+                "meters": 11270
+              },
+              "speed": {
+                "kmh": 892.7,
+                "kts": 482,
+                "mph": 554.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 71,
+              "squawk": "720",
+              "timestamp": 1565733292,
+              "ems": null
+            },
+            {
+              "latitude": 22.695328,
+              "longitude": 117.987869,
+              "altitude": {
+                "feet": 37000,
+                "meters": 11278
+              },
+              "speed": {
+                "kmh": 896.4,
+                "kts": 484,
+                "mph": 557
+              },
+              "verticalSpeed": {
+                "fpm": 64,
+                "ms": 0.3
+              },
+              "heading": 71,
+              "squawk": "720",
+              "timestamp": 1565733353,
+              "ems": null
+            },
+            {
+              "latitude": 22.737835,
+              "longitude": 118.126122,
+              "altitude": {
+                "feet": 36825,
+                "meters": 11224
+              },
+              "speed": {
+                "kmh": 894.5,
+                "kts": 483,
+                "mph": 555.8
+              },
+              "verticalSpeed": {
+                "fpm": -576,
+                "ms": -2.9
+              },
+              "heading": 71,
+              "squawk": "720",
+              "timestamp": 1565733414,
+              "ems": null
+            },
+            {
+              "latitude": 22.783363,
+              "longitude": 118.275909,
+              "altitude": {
+                "feet": 35825,
+                "meters": 10919
+              },
+              "speed": {
+                "kmh": 894.5,
+                "kts": 483,
+                "mph": 555.8
+              },
+              "verticalSpeed": {
+                "fpm": -960,
+                "ms": -4.9
+              },
+              "heading": 71,
+              "squawk": "720",
+              "timestamp": 1565733479,
+              "ems": null
+            },
+            {
+              "latitude": 22.826052,
+              "longitude": 118.416595,
+              "altitude": {
+                "feet": 35000,
+                "meters": 10668
+              },
+              "speed": {
+                "kmh": 883.4,
+                "kts": 477,
+                "mph": 548.9
+              },
+              "verticalSpeed": {
+                "fpm": -256,
+                "ms": -1.3
+              },
+              "heading": 71,
+              "squawk": "720",
+              "timestamp": 1565733540,
+              "ems": null
+            },
+            {
+              "latitude": 22.870743,
+              "longitude": 118.563408,
+              "altitude": {
+                "feet": 35000,
+                "meters": 10668
+              },
+              "speed": {
+                "kmh": 883.4,
+                "kts": 477,
+                "mph": 548.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 71,
+              "squawk": "720",
+              "timestamp": 1565733606,
+              "ems": null
+            },
+            {
+              "latitude": 22.912857,
+              "longitude": 118.703178,
+              "altitude": {
+                "feet": 35000,
+                "meters": 10668
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 71,
+              "squawk": "720",
+              "timestamp": 1565733666,
+              "ems": null
+            },
+            {
+              "latitude": 22.957947,
+              "longitude": 118.852997,
+              "altitude": {
+                "feet": 34175,
+                "meters": 10417
+              },
+              "speed": {
+                "kmh": 894.5,
+                "kts": 483,
+                "mph": 555.8
+              },
+              "verticalSpeed": {
+                "fpm": -1024,
+                "ms": -5.2
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565733731,
+              "ems": null
+            },
+            {
+              "latitude": 22.999374,
+              "longitude": 118.99102,
+              "altitude": {
+                "feet": 33175,
+                "meters": 10112
+              },
+              "speed": {
+                "kmh": 898.2,
+                "kts": 485,
+                "mph": 558.1
+              },
+              "verticalSpeed": {
+                "fpm": -1024,
+                "ms": -5.2
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565733791,
+              "ems": null
+            },
+            {
+              "latitude": 23.041855,
+              "longitude": 119.133446,
+              "altitude": {
+                "feet": 32175,
+                "meters": 9807
+              },
+              "speed": {
+                "kmh": 889,
+                "kts": 480,
+                "mph": 552.4
+              },
+              "verticalSpeed": {
+                "fpm": -1024,
+                "ms": -5.2
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565733853,
+              "ems": null
+            },
+            {
+              "latitude": 23.085709,
+              "longitude": 119.280861,
+              "altitude": {
+                "feet": 31100,
+                "meters": 9479
+              },
+              "speed": {
+                "kmh": 877.8,
+                "kts": 474,
+                "mph": 545.5
+              },
+              "verticalSpeed": {
+                "fpm": -1024,
+                "ms": -5.2
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565733918,
+              "ems": null
+            },
+            {
+              "latitude": 23.12677,
+              "longitude": 119.419289,
+              "altitude": {
+                "feet": 30100,
+                "meters": 9174
+              },
+              "speed": {
+                "kmh": 872.3,
+                "kts": 471,
+                "mph": 542
+              },
+              "verticalSpeed": {
+                "fpm": -1024,
+                "ms": -5.2
+              },
+              "heading": 72,
+              "squawk": "720",
+              "timestamp": 1565733979,
+              "ems": null
+            },
+            {
+              "latitude": 23.174076,
+              "longitude": 119.562584,
+              "altitude": {
+                "feet": 29075,
+                "meters": 8862
+              },
+              "speed": {
+                "kmh": 842.7,
+                "kts": 455,
+                "mph": 523.6
+              },
+              "verticalSpeed": {
+                "fpm": -1088,
+                "ms": -5.5
+              },
+              "heading": 59,
+              "squawk": "720",
+              "timestamp": 1565734044,
+              "ems": null
+            },
+            {
+              "latitude": 23.180511,
+              "longitude": 119.573097,
+              "altitude": {
+                "feet": 29025,
+                "meters": 8847
+              },
+              "speed": {
+                "kmh": 840.8,
+                "kts": 454,
+                "mph": 522.5
+              },
+              "verticalSpeed": {
+                "fpm": -704,
+                "ms": -3.6
+              },
+              "heading": 55,
+              "squawk": "720",
+              "timestamp": 1565734050,
+              "ems": null
+            },
+            {
+              "latitude": 23.193146,
+              "longitude": 119.590027,
+              "altitude": {
+                "feet": 28975,
+                "meters": 8832
+              },
+              "speed": {
+                "kmh": 837.1,
+                "kts": 452,
+                "mph": 520.2
+              },
+              "verticalSpeed": {
+                "fpm": -512,
+                "ms": -2.6
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565734060,
+              "ems": null
+            },
+            {
+              "latitude": 23.208199,
+              "longitude": 119.606018,
+              "altitude": {
+                "feet": 28975,
+                "meters": 8832
+              },
+              "speed": {
+                "kmh": 835.3,
+                "kts": 451,
+                "mph": 519
+              },
+              "verticalSpeed": {
+                "fpm": -256,
+                "ms": -1.3
+              },
+              "heading": 41,
+              "squawk": "720",
+              "timestamp": 1565734070,
+              "ems": null
+            },
+            {
+              "latitude": 23.223747,
+              "longitude": 119.618935,
+              "altitude": {
+                "feet": 28975,
+                "meters": 8832
+              },
+              "speed": {
+                "kmh": 833.4,
+                "kts": 450,
+                "mph": 517.9
+              },
+              "verticalSpeed": {
+                "fpm": -192,
+                "ms": -1
+              },
+              "heading": 35,
+              "squawk": "720",
+              "timestamp": 1565734080,
+              "ems": null
+            },
+            {
+              "latitude": 23.243067,
+              "longitude": 119.6315,
+              "altitude": {
+                "feet": 28975,
+                "meters": 8832
+              },
+              "speed": {
+                "kmh": 833.4,
+                "kts": 450,
+                "mph": 517.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 29,
+              "squawk": "720",
+              "timestamp": 1565734089,
+              "ems": null
+            },
+            {
+              "latitude": 23.252518,
+              "longitude": 119.637352,
+              "altitude": {
+                "feet": 28975,
+                "meters": 8832
+              },
+              "speed": {
+                "kmh": 833.4,
+                "kts": 450,
+                "mph": 517.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 29,
+              "squawk": "720",
+              "timestamp": 1565734095,
+              "ems": null
+            },
+            {
+              "latitude": 23.370155,
+              "longitude": 119.712219,
+              "altitude": {
+                "feet": 29000,
+                "meters": 8839
+              },
+              "speed": {
+                "kmh": 829.7,
+                "kts": 448,
+                "mph": 515.5
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 30,
+              "squawk": "720",
+              "timestamp": 1565734160,
+              "ems": null
+            },
+            {
+              "latitude": 23.486572,
+              "longitude": 119.785637,
+              "altitude": {
+                "feet": 28975,
+                "meters": 8832
+              },
+              "speed": {
+                "kmh": 829.7,
+                "kts": 448,
+                "mph": 515.5
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 29,
+              "squawk": "720",
+              "timestamp": 1565734226,
+              "ems": null
+            },
+            {
+              "latitude": 23.526901,
+              "longitude": 119.80526,
+              "altitude": {
+                "feet": 29000,
+                "meters": 8839
+              },
+              "speed": {
+                "kmh": 826,
+                "kts": 446,
+                "mph": 513.2
+              },
+              "verticalSpeed": {
+                "fpm": -64,
+                "ms": -0.3
+              },
+              "heading": 20,
+              "squawk": "720",
+              "timestamp": 1565734247,
+              "ems": null
+            },
+            {
+              "latitude": 23.653751,
+              "longitude": 119.850784,
+              "altitude": {
+                "feet": 28975,
+                "meters": 8832
+              },
+              "speed": {
+                "kmh": 826,
+                "kts": 446,
+                "mph": 513.2
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 17,
+              "squawk": "720",
+              "timestamp": 1565734311,
+              "ems": null
+            },
+            {
+              "latitude": 23.793919,
+              "longitude": 119.908623,
+              "altitude": {
+                "feet": 28825,
+                "meters": 8786
+              },
+              "speed": {
+                "kmh": 818.6,
+                "kts": 442,
+                "mph": 508.6
+              },
+              "verticalSpeed": {
+                "fpm": -1088,
+                "ms": -5.5
+              },
+              "heading": 22,
+              "squawk": "720",
+              "timestamp": 1565734385,
+              "ems": null
+            },
+            {
+              "latitude": 23.909882,
+              "longitude": 119.951584,
+              "altitude": {
+                "feet": 26800,
+                "meters": 8169
+              },
+              "speed": {
+                "kmh": 798.2,
+                "kts": 431,
+                "mph": 496
+              },
+              "verticalSpeed": {
+                "fpm": -2304,
+                "ms": -11.7
+              },
+              "heading": 17,
+              "squawk": "720",
+              "timestamp": 1565734444,
+              "ems": null
+            },
+            {
+              "latitude": 24.035019,
+              "longitude": 119.995476,
+              "altitude": {
+                "feet": 25600,
+                "meters": 7803
+              },
+              "speed": {
+                "kmh": 785.2,
+                "kts": 424,
+                "mph": 487.9
+              },
+              "verticalSpeed": {
+                "fpm": -1024,
+                "ms": -5.2
+              },
+              "heading": 18,
+              "squawk": "720",
+              "timestamp": 1565734511,
+              "ems": null
+            },
+            {
+              "latitude": 24.149113,
+              "longitude": 120.034599,
+              "altitude": {
+                "feet": 24600,
+                "meters": 7498
+              },
+              "speed": {
+                "kmh": 770.4,
+                "kts": 416,
+                "mph": 478.7
+              },
+              "verticalSpeed": {
+                "fpm": -1088,
+                "ms": -5.5
+              },
+              "heading": 17,
+              "squawk": "720",
+              "timestamp": 1565734572,
+              "ems": null
+            },
+            {
+              "latitude": 24.257675,
+              "longitude": 120.078941,
+              "altitude": {
+                "feet": 23600,
+                "meters": 7193
+              },
+              "speed": {
+                "kmh": 750.1,
+                "kts": 405,
+                "mph": 466.1
+              },
+              "verticalSpeed": {
+                "fpm": -1088,
+                "ms": -5.5
+              },
+              "heading": 22,
+              "squawk": "720",
+              "timestamp": 1565734633,
+              "ems": null
+            },
+            {
+              "latitude": 24.367489,
+              "longitude": 120.117981,
+              "altitude": {
+                "feet": 22875,
+                "meters": 6972
+              },
+              "speed": {
+                "kmh": 750.1,
+                "kts": 405,
+                "mph": 466.1
+              },
+              "verticalSpeed": {
+                "fpm": -512,
+                "ms": -2.6
+              },
+              "heading": 16,
+              "squawk": "720",
+              "timestamp": 1565734695,
+              "ems": null
+            },
+            {
+              "latitude": 24.476761,
+              "longitude": 120.154976,
+              "altitude": {
+                "feet": 22375,
+                "meters": 6820
+              },
+              "speed": {
+                "kmh": 735.2,
+                "kts": 397,
+                "mph": 456.9
+              },
+              "verticalSpeed": {
+                "fpm": -448,
+                "ms": -2.3
+              },
+              "heading": 17,
+              "squawk": "720",
+              "timestamp": 1565734757,
+              "ems": null
+            },
+            {
+              "latitude": 24.54611,
+              "longitude": 120.190948,
+              "altitude": {
+                "feet": 22050,
+                "meters": 6721
+              },
+              "speed": {
+                "kmh": 738.9,
+                "kts": 399,
+                "mph": 459.2
+              },
+              "verticalSpeed": {
+                "fpm": -448,
+                "ms": -2.3
+              },
+              "heading": 32,
+              "squawk": "720",
+              "timestamp": 1565734797,
+              "ems": null
+            },
+            {
+              "latitude": 24.592989,
+              "longitude": 120.225563,
+              "altitude": {
+                "feet": 21775,
+                "meters": 6637
+              },
+              "speed": {
+                "kmh": 735.2,
+                "kts": 397,
+                "mph": 456.9
+              },
+              "verticalSpeed": {
+                "fpm": -192,
+                "ms": -1
+              },
+              "heading": 41,
+              "squawk": "720",
+              "timestamp": 1565734829,
+              "ems": null
+            },
+            {
+              "latitude": 24.5996,
+              "longitude": 120.232872,
+              "altitude": {
+                "feet": 21750,
+                "meters": 6629
+              },
+              "speed": {
+                "kmh": 737.1,
+                "kts": 398,
+                "mph": 458
+              },
+              "verticalSpeed": {
+                "fpm": -192,
+                "ms": -1
+              },
+              "heading": 46,
+              "squawk": "720",
+              "timestamp": 1565734835,
+              "ems": null
+            },
+            {
+              "latitude": 24.611206,
+              "longitude": 120.249535,
+              "altitude": {
+                "feet": 21650,
+                "meters": 6599
+              },
+              "speed": {
+                "kmh": 738.9,
+                "kts": 399,
+                "mph": 459.2
+              },
+              "verticalSpeed": {
+                "fpm": -128,
+                "ms": -0.7
+              },
+              "heading": 55,
+              "squawk": "720",
+              "timestamp": 1565734845,
+              "ems": null
+            },
+            {
+              "latitude": 24.620453,
+              "longitude": 120.26693,
+              "altitude": {
+                "feet": 21575,
+                "meters": 6576
+              },
+              "speed": {
+                "kmh": 740.8,
+                "kts": 400,
+                "mph": 460.3
+              },
+              "verticalSpeed": {
+                "fpm": -448,
+                "ms": -2.3
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565734854,
+              "ems": null
+            },
+            {
+              "latitude": 24.62525,
+              "longitude": 120.276245,
+              "altitude": {
+                "feet": 21525,
+                "meters": 6561
+              },
+              "speed": {
+                "kmh": 740.8,
+                "kts": 400,
+                "mph": 460.3
+              },
+              "verticalSpeed": {
+                "fpm": -512,
+                "ms": -2.6
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565734860,
+              "ems": null
+            },
+            {
+              "latitude": 24.685581,
+              "longitude": 120.392639,
+              "altitude": {
+                "feet": 21000,
+                "meters": 6401
+              },
+              "speed": {
+                "kmh": 731.5,
+                "kts": 395,
+                "mph": 454.6
+              },
+              "verticalSpeed": {
+                "fpm": -512,
+                "ms": -2.6
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565734926,
+              "ems": null
+            },
+            {
+              "latitude": 24.741257,
+              "longitude": 120.501762,
+              "altitude": {
+                "feet": 20500,
+                "meters": 6248
+              },
+              "speed": {
+                "kmh": 727.8,
+                "kts": 393,
+                "mph": 452.3
+              },
+              "verticalSpeed": {
+                "fpm": -512,
+                "ms": -2.6
+              },
+              "heading": 61,
+              "squawk": "720",
+              "timestamp": 1565734987,
+              "ems": null
+            },
+            {
+              "latitude": 24.795593,
+              "longitude": 120.608727,
+              "altitude": {
+                "feet": 19975,
+                "meters": 6088
+              },
+              "speed": {
+                "kmh": 727.8,
+                "kts": 393,
+                "mph": 452.3
+              },
+              "verticalSpeed": {
+                "fpm": -448,
+                "ms": -2.3
+              },
+              "heading": 60,
+              "squawk": "720",
+              "timestamp": 1565735048,
+              "ems": null
+            },
+            {
+              "latitude": 24.851585,
+              "longitude": 120.71907,
+              "altitude": {
+                "feet": 17850,
+                "meters": 5441
+              },
+              "speed": {
+                "kmh": 761.2,
+                "kts": 411,
+                "mph": 473
+              },
+              "verticalSpeed": {
+                "fpm": -2048,
+                "ms": -10.4
+              },
+              "heading": 61,
+              "squawk": "720",
+              "timestamp": 1565735110,
+              "ems": null
+            },
+            {
+              "latitude": 24.880234,
+              "longitude": 120.775551,
+              "altitude": {
+                "feet": 16850,
+                "meters": 5136
+              },
+              "speed": {
+                "kmh": 748.2,
+                "kts": 404,
+                "mph": 464.9
+              },
+              "verticalSpeed": {
+                "fpm": -2176,
+                "ms": -11.1
+              },
+              "heading": 61,
+              "squawk": "720",
+              "timestamp": 1565735142,
+              "ems": null
+            },
+            {
+              "latitude": 24.908241,
+              "longitude": 120.831009,
+              "altitude": {
+                "feet": 15725,
+                "meters": 4793
+              },
+              "speed": {
+                "kmh": 740.8,
+                "kts": 400,
+                "mph": 460.3
+              },
+              "verticalSpeed": {
+                "fpm": -2304,
+                "ms": -11.7
+              },
+              "heading": 61,
+              "squawk": "720",
+              "timestamp": 1565735173,
+              "ems": null
+            },
+            {
+              "latitude": 24.929031,
+              "longitude": 120.865379,
+              "altitude": {
+                "feet": 14850,
+                "meters": 4526
+              },
+              "speed": {
+                "kmh": 740.8,
+                "kts": 400,
+                "mph": 460.3
+              },
+              "verticalSpeed": {
+                "fpm": -2880,
+                "ms": -14.6
+              },
+              "heading": 51,
+              "squawk": "720",
+              "timestamp": 1565735193,
+              "ems": null
+            },
+            {
+              "latitude": 24.941618,
+              "longitude": 120.881065,
+              "altitude": {
+                "feet": 14450,
+                "meters": 4404
+              },
+              "speed": {
+                "kmh": 735.2,
+                "kts": 397,
+                "mph": 456.9
+              },
+              "verticalSpeed": {
+                "fpm": -2560,
+                "ms": -13
+              },
+              "heading": 48,
+              "squawk": "720",
+              "timestamp": 1565735203,
+              "ems": null
+            },
+            {
+              "latitude": 24.978861,
+              "longitude": 120.927605,
+              "altitude": {
+                "feet": 13175,
+                "meters": 4016
+              },
+              "speed": {
+                "kmh": 718.6,
+                "kts": 388,
+                "mph": 446.5
+              },
+              "verticalSpeed": {
+                "fpm": -2688,
+                "ms": -13.7
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735234,
+              "ems": null
+            },
+            {
+              "latitude": 25.014147,
+              "longitude": 120.972534,
+              "altitude": {
+                "feet": 11600,
+                "meters": 3536
+              },
+              "speed": {
+                "kmh": 687.1,
+                "kts": 371,
+                "mph": 426.9
+              },
+              "verticalSpeed": {
+                "fpm": -3712,
+                "ms": -18.9
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735266,
+              "ems": null
+            },
+            {
+              "latitude": 25.030655,
+              "longitude": 120.993553,
+              "altitude": {
+                "feet": 10750,
+                "meters": 3277
+              },
+              "speed": {
+                "kmh": 685.2,
+                "kts": 370,
+                "mph": 425.8
+              },
+              "verticalSpeed": {
+                "fpm": -3200,
+                "ms": -16.3
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735280,
+              "ems": null
+            },
+            {
+              "latitude": 25.048462,
+              "longitude": 121.016289,
+              "altitude": {
+                "feet": 10550,
+                "meters": 3216
+              },
+              "speed": {
+                "kmh": 644.5,
+                "kts": 348,
+                "mph": 400.5
+              },
+              "verticalSpeed": {
+                "fpm": -768,
+                "ms": -3.9
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735297,
+              "ems": null
+            },
+            {
+              "latitude": 25.064301,
+              "longitude": 121.036476,
+              "altitude": {
+                "feet": 10275,
+                "meters": 3132
+              },
+              "speed": {
+                "kmh": 607.5,
+                "kts": 328,
+                "mph": 377.5
+              },
+              "verticalSpeed": {
+                "fpm": -1024,
+                "ms": -5.2
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735312,
+              "ems": null
+            },
+            {
+              "latitude": 25.079544,
+              "longitude": 121.055809,
+              "altitude": {
+                "feet": 10025,
+                "meters": 3056
+              },
+              "speed": {
+                "kmh": 581.5,
+                "kts": 314,
+                "mph": 361.3
+              },
+              "verticalSpeed": {
+                "fpm": -1088,
+                "ms": -5.5
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735328,
+              "ems": null
+            },
+            {
+              "latitude": 25.088516,
+              "longitude": 121.067101,
+              "altitude": {
+                "feet": 9875,
+                "meters": 3010
+              },
+              "speed": {
+                "kmh": 563,
+                "kts": 304,
+                "mph": 349.8
+              },
+              "verticalSpeed": {
+                "fpm": -832,
+                "ms": -4.2
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735338,
+              "ems": null
+            },
+            {
+              "latitude": 25.101837,
+              "longitude": 121.084038,
+              "altitude": {
+                "feet": 9775,
+                "meters": 2979
+              },
+              "speed": {
+                "kmh": 535.2,
+                "kts": 289,
+                "mph": 332.6
+              },
+              "verticalSpeed": {
+                "fpm": -128,
+                "ms": -0.7
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735353,
+              "ems": null
+            },
+            {
+              "latitude": 25.115982,
+              "longitude": 121.102142,
+              "altitude": {
+                "feet": 9450,
+                "meters": 2880
+              },
+              "speed": {
+                "kmh": 527.8,
+                "kts": 285,
+                "mph": 328
+              },
+              "verticalSpeed": {
+                "fpm": -1856,
+                "ms": -9.4
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735368,
+              "ems": null
+            },
+            {
+              "latitude": 25.12899,
+              "longitude": 121.118622,
+              "altitude": {
+                "feet": 9025,
+                "meters": 2751
+              },
+              "speed": {
+                "kmh": 535.2,
+                "kts": 289,
+                "mph": 332.6
+              },
+              "verticalSpeed": {
+                "fpm": -1664,
+                "ms": -8.5
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735384,
+              "ems": null
+            },
+            {
+              "latitude": 25.14319,
+              "longitude": 121.13665,
+              "altitude": {
+                "feet": 8550,
+                "meters": 2606
+              },
+              "speed": {
+                "kmh": 544.5,
+                "kts": 294,
+                "mph": 338.3
+              },
+              "verticalSpeed": {
+                "fpm": -2240,
+                "ms": -11.4
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735399,
+              "ems": null
+            },
+            {
+              "latitude": 25.156906,
+              "longitude": 121.153969,
+              "altitude": {
+                "feet": 8125,
+                "meters": 2477
+              },
+              "speed": {
+                "kmh": 553.7,
+                "kts": 299,
+                "mph": 344.1
+              },
+              "verticalSpeed": {
+                "fpm": -1536,
+                "ms": -7.8
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735414,
+              "ems": null
+            },
+            {
+              "latitude": 25.165192,
+              "longitude": 121.164703,
+              "altitude": {
+                "feet": 7900,
+                "meters": 2408
+              },
+              "speed": {
+                "kmh": 551.9,
+                "kts": 298,
+                "mph": 342.9
+              },
+              "verticalSpeed": {
+                "fpm": -1408,
+                "ms": -7.2
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735425,
+              "ems": null
+            },
+            {
+              "latitude": 25.179977,
+              "longitude": 121.183418,
+              "altitude": {
+                "feet": 7475,
+                "meters": 2278
+              },
+              "speed": {
+                "kmh": 553.7,
+                "kts": 299,
+                "mph": 344.1
+              },
+              "verticalSpeed": {
+                "fpm": -1728,
+                "ms": -8.8
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735440,
+              "ems": null
+            },
+            {
+              "latitude": 25.193792,
+              "longitude": 121.201065,
+              "altitude": {
+                "feet": 7125,
+                "meters": 2172
+              },
+              "speed": {
+                "kmh": 553.7,
+                "kts": 299,
+                "mph": 344.1
+              },
+              "verticalSpeed": {
+                "fpm": -1280,
+                "ms": -6.5
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735455,
+              "ems": null
+            },
+            {
+              "latitude": 25.205246,
+              "longitude": 121.215462,
+              "altitude": {
+                "feet": 6825,
+                "meters": 2080
+              },
+              "speed": {
+                "kmh": 551.9,
+                "kts": 298,
+                "mph": 342.9
+              },
+              "verticalSpeed": {
+                "fpm": -1856,
+                "ms": -9.4
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735468,
+              "ems": null
+            },
+            {
+              "latitude": 25.222002,
+              "longitude": 121.236824,
+              "altitude": {
+                "feet": 5950,
+                "meters": 1814
+              },
+              "speed": {
+                "kmh": 551.9,
+                "kts": 298,
+                "mph": 342.9
+              },
+              "verticalSpeed": {
+                "fpm": -3264,
+                "ms": -16.6
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735487,
+              "ems": null
+            },
+            {
+              "latitude": 25.240219,
+              "longitude": 121.260071,
+              "altitude": {
+                "feet": 4975,
+                "meters": 1516
+              },
+              "speed": {
+                "kmh": 557.5,
+                "kts": 301,
+                "mph": 346.4
+              },
+              "verticalSpeed": {
+                "fpm": -2944,
+                "ms": -15
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735506,
+              "ems": null
+            },
+            {
+              "latitude": 25.252213,
+              "longitude": 121.275383,
+              "altitude": {
+                "feet": 4400,
+                "meters": 1341
+              },
+              "speed": {
+                "kmh": 555.6,
+                "kts": 300,
+                "mph": 345.2
+              },
+              "verticalSpeed": {
+                "fpm": -2752,
+                "ms": -14
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735519,
+              "ems": null
+            },
+            {
+              "latitude": 25.257196,
+              "longitude": 121.281601,
+              "altitude": {
+                "feet": 4175,
+                "meters": 1273
+              },
+              "speed": {
+                "kmh": 553.7,
+                "kts": 299,
+                "mph": 344.1
+              },
+              "verticalSpeed": {
+                "fpm": -2432,
+                "ms": -12.4
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735525,
+              "ems": null
+            },
+            {
+              "latitude": 25.263248,
+              "longitude": 121.289429,
+              "altitude": {
+                "feet": 4000,
+                "meters": 1219
+              },
+              "speed": {
+                "kmh": 550,
+                "kts": 297,
+                "mph": 341.8
+              },
+              "verticalSpeed": {
+                "fpm": -1792,
+                "ms": -9.1
+              },
+              "heading": 49,
+              "squawk": "720",
+              "timestamp": 1565735531,
+              "ems": null
+            },
+            {
+              "latitude": 25.273024,
+              "longitude": 121.303108,
+              "altitude": {
+                "feet": 3825,
+                "meters": 1166
+              },
+              "speed": {
+                "kmh": 533.4,
+                "kts": 288,
+                "mph": 331.4
+              },
+              "verticalSpeed": {
+                "fpm": -256,
+                "ms": -1.3
+              },
+              "heading": 55,
+              "squawk": "720",
+              "timestamp": 1565735544,
+              "ems": null
+            },
+            {
+              "latitude": 25.276474,
+              "longitude": 121.310783,
+              "altitude": {
+                "feet": 3775,
+                "meters": 1151
+              },
+              "speed": {
+                "kmh": 527.8,
+                "kts": 285,
+                "mph": 328
+              },
+              "verticalSpeed": {
+                "fpm": 128,
+                "ms": 0.7
+              },
+              "heading": 64,
+              "squawk": "720",
+              "timestamp": 1565735550,
+              "ems": null
+            },
+            {
+              "latitude": 25.278946,
+              "longitude": 121.325378,
+              "altitude": {
+                "feet": 3775,
+                "meters": 1151
+              },
+              "speed": {
+                "kmh": 511.2,
+                "kts": 276,
+                "mph": 317.6
+              },
+              "verticalSpeed": {
+                "fpm": 512,
+                "ms": 2.6
+              },
+              "heading": 85,
+              "squawk": "720",
+              "timestamp": 1565735558,
+              "ems": null
+            },
+            {
+              "latitude": 25.272171,
+              "longitude": 121.349998,
+              "altitude": {
+                "feet": 3800,
+                "meters": 1158
+              },
+              "speed": {
+                "kmh": 459.3,
+                "kts": 248,
+                "mph": 285.4
+              },
+              "verticalSpeed": {
+                "fpm": 192,
+                "ms": 1
+              },
+              "heading": 119,
+              "squawk": "720",
+              "timestamp": 1565735579,
+              "ems": null
+            },
+            {
+              "latitude": 25.268234,
+              "longitude": 121.355995,
+              "altitude": {
+                "feet": 3800,
+                "meters": 1158
+              },
+              "speed": {
+                "kmh": 440.8,
+                "kts": 238,
+                "mph": 273.9
+              },
+              "verticalSpeed": {
+                "fpm": 128,
+                "ms": 0.7
+              },
+              "heading": 126,
+              "squawk": "720",
+              "timestamp": 1565735586,
+              "ems": null
+            },
+            {
+              "latitude": 25.261805,
+              "longitude": 121.365555,
+              "altitude": {
+                "feet": 3800,
+                "meters": 1158
+              },
+              "speed": {
+                "kmh": 433.4,
+                "kts": 234,
+                "mph": 269.3
+              },
+              "verticalSpeed": {
+                "fpm": -128,
+                "ms": -0.7
+              },
+              "heading": 125,
+              "squawk": "720",
+              "timestamp": 1565735595,
+              "ems": null
+            },
+            {
+              "latitude": 25.253984,
+              "longitude": 121.377991,
+              "altitude": {
+                "feet": 3800,
+                "meters": 1158
+              },
+              "speed": {
+                "kmh": 414.8,
+                "kts": 224,
+                "mph": 257.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 124,
+              "squawk": "720",
+              "timestamp": 1565735608,
+              "ems": null
+            },
+            {
+              "latitude": 25.249933,
+              "longitude": 121.384262,
+              "altitude": {
+                "feet": 3800,
+                "meters": 1158
+              },
+              "speed": {
+                "kmh": 401.9,
+                "kts": 217,
+                "mph": 249.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 125,
+              "squawk": "720",
+              "timestamp": 1565735615,
+              "ems": null
+            },
+            {
+              "latitude": 25.246674,
+              "longitude": 121.389061,
+              "altitude": {
+                "feet": 3800,
+                "meters": 1158
+              },
+              "speed": {
+                "kmh": 388.9,
+                "kts": 210,
+                "mph": 241.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 126,
+              "squawk": "720",
+              "timestamp": 1565735621,
+              "ems": null
+            },
+            {
+              "latitude": 25.243044,
+              "longitude": 121.394363,
+              "altitude": {
+                "feet": 3800,
+                "meters": 1158
+              },
+              "speed": {
+                "kmh": 377.8,
+                "kts": 204,
+                "mph": 234.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 127,
+              "squawk": "720",
+              "timestamp": 1565735627,
+              "ems": null
+            },
+            {
+              "latitude": 25.239029,
+              "longitude": 121.398926,
+              "altitude": {
+                "feet": 3800,
+                "meters": 1158
+              },
+              "speed": {
+                "kmh": 364.8,
+                "kts": 197,
+                "mph": 226.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 135,
+              "squawk": "720",
+              "timestamp": 1565735635,
+              "ems": null
+            },
+            {
+              "latitude": 25.234268,
+              "longitude": 121.401726,
+              "altitude": {
+                "feet": 3800,
+                "meters": 1158
+              },
+              "speed": {
+                "kmh": 338.9,
+                "kts": 183,
+                "mph": 210.6
+              },
+              "verticalSpeed": {
+                "fpm": -64,
+                "ms": -0.3
+              },
+              "heading": 155,
+              "squawk": "720",
+              "timestamp": 1565735641,
+              "ems": null
+            },
+            {
+              "latitude": 25.229357,
+              "longitude": 121.402344,
+              "altitude": {
+                "feet": 3800,
+                "meters": 1158
+              },
+              "speed": {
+                "kmh": 320.4,
+                "kts": 173,
+                "mph": 199.1
+              },
+              "verticalSpeed": {
+                "fpm": -256,
+                "ms": -1.3
+              },
+              "heading": 173,
+              "squawk": "720",
+              "timestamp": 1565735648,
+              "ems": null
+            },
+            {
+              "latitude": 25.214127,
+              "longitude": 121.39328,
+              "altitude": {
+                "feet": 3675,
+                "meters": 1120
+              },
+              "speed": {
+                "kmh": 300,
+                "kts": 162,
+                "mph": 186.4
+              },
+              "verticalSpeed": {
+                "fpm": -704,
+                "ms": -3.6
+              },
+              "heading": 218,
+              "squawk": "720",
+              "timestamp": 1565735669,
+              "ems": null
+            },
+            {
+              "latitude": 25.210556,
+              "longitude": 121.389717,
+              "altitude": {
+                "feet": 3600,
+                "meters": 1097
+              },
+              "speed": {
+                "kmh": 300,
+                "kts": 162,
+                "mph": 186.4
+              },
+              "verticalSpeed": {
+                "fpm": -960,
+                "ms": -4.9
+              },
+              "heading": 223,
+              "squawk": "720",
+              "timestamp": 1565735675,
+              "ems": null
+            },
+            {
+              "latitude": 25.203964,
+              "longitude": 121.382141,
+              "altitude": {
+                "feet": 3400,
+                "meters": 1036
+              },
+              "speed": {
+                "kmh": 303.7,
+                "kts": 164,
+                "mph": 188.7
+              },
+              "verticalSpeed": {
+                "fpm": -960,
+                "ms": -4.9
+              },
+              "heading": 226,
+              "squawk": "720",
+              "timestamp": 1565735688,
+              "ems": null
+            },
+            {
+              "latitude": 25.19747,
+              "longitude": 121.374313,
+              "altitude": {
+                "feet": 3200,
+                "meters": 975
+              },
+              "speed": {
+                "kmh": 303.7,
+                "kts": 164,
+                "mph": 188.7
+              },
+              "verticalSpeed": {
+                "fpm": -960,
+                "ms": -4.9
+              },
+              "heading": 228,
+              "squawk": "720",
+              "timestamp": 1565735700,
+              "ems": null
+            },
+            {
+              "latitude": 25.194025,
+              "longitude": 121.370064,
+              "altitude": {
+                "feet": 3100,
+                "meters": 945
+              },
+              "speed": {
+                "kmh": 300,
+                "kts": 162,
+                "mph": 186.4
+              },
+              "verticalSpeed": {
+                "fpm": -896,
+                "ms": -4.6
+              },
+              "heading": 228,
+              "squawk": "720",
+              "timestamp": 1565735707,
+              "ems": null
+            },
+            {
+              "latitude": 25.188345,
+              "longitude": 121.362854,
+              "altitude": {
+                "feet": 2925,
+                "meters": 892
+              },
+              "speed": {
+                "kmh": 298.2,
+                "kts": 161,
+                "mph": 185.3
+              },
+              "verticalSpeed": {
+                "fpm": -832,
+                "ms": -4.2
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735719,
+              "ems": null
+            },
+            {
+              "latitude": 25.185272,
+              "longitude": 121.359077,
+              "altitude": {
+                "feet": 2875,
+                "meters": 876
+              },
+              "speed": {
+                "kmh": 296.3,
+                "kts": 160,
+                "mph": 184.1
+              },
+              "verticalSpeed": {
+                "fpm": -832,
+                "ms": -4.2
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735725,
+              "ems": null
+            },
+            {
+              "latitude": 25.179314,
+              "longitude": 121.351402,
+              "altitude": {
+                "feet": 2675,
+                "meters": 815
+              },
+              "speed": {
+                "kmh": 294.5,
+                "kts": 159,
+                "mph": 183
+              },
+              "verticalSpeed": {
+                "fpm": -832,
+                "ms": -4.2
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735736,
+              "ems": null
+            },
+            {
+              "latitude": 25.176041,
+              "longitude": 121.347198,
+              "altitude": {
+                "feet": 2600,
+                "meters": 792
+              },
+              "speed": {
+                "kmh": 292.6,
+                "kts": 158,
+                "mph": 181.8
+              },
+              "verticalSpeed": {
+                "fpm": -832,
+                "ms": -4.2
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735744,
+              "ems": null
+            },
+            {
+              "latitude": 25.173248,
+              "longitude": 121.343636,
+              "altitude": {
+                "feet": 2525,
+                "meters": 770
+              },
+              "speed": {
+                "kmh": 292.6,
+                "kts": 158,
+                "mph": 181.8
+              },
+              "verticalSpeed": {
+                "fpm": -832,
+                "ms": -4.2
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735751,
+              "ems": null
+            },
+            {
+              "latitude": 25.166653,
+              "longitude": 121.335236,
+              "altitude": {
+                "feet": 2350,
+                "meters": 716
+              },
+              "speed": {
+                "kmh": 292.6,
+                "kts": 158,
+                "mph": 181.8
+              },
+              "verticalSpeed": {
+                "fpm": -832,
+                "ms": -4.2
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735763,
+              "ems": null
+            },
+            {
+              "latitude": 25.160879,
+              "longitude": 121.32798,
+              "altitude": {
+                "feet": 2225,
+                "meters": 678
+              },
+              "speed": {
+                "kmh": 281.5,
+                "kts": 152,
+                "mph": 174.9
+              },
+              "verticalSpeed": {
+                "fpm": -960,
+                "ms": -4.9
+              },
+              "heading": 228,
+              "squawk": "720",
+              "timestamp": 1565735775,
+              "ems": null
+            },
+            {
+              "latitude": 25.157806,
+              "longitude": 121.324043,
+              "altitude": {
+                "feet": 2125,
+                "meters": 648
+              },
+              "speed": {
+                "kmh": 279.7,
+                "kts": 151,
+                "mph": 173.8
+              },
+              "verticalSpeed": {
+                "fpm": -960,
+                "ms": -4.9
+              },
+              "heading": 228,
+              "squawk": "720",
+              "timestamp": 1565735783,
+              "ems": null
+            },
+            {
+              "latitude": 25.155434,
+              "longitude": 121.321037,
+              "altitude": {
+                "feet": 2025,
+                "meters": 617
+              },
+              "speed": {
+                "kmh": 275.9,
+                "kts": 149,
+                "mph": 171.5
+              },
+              "verticalSpeed": {
+                "fpm": -960,
+                "ms": -4.9
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735789,
+              "ems": null
+            },
+            {
+              "latitude": 25.148117,
+              "longitude": 121.311745,
+              "altitude": {
+                "feet": 1875,
+                "meters": 572
+              },
+              "speed": {
+                "kmh": 264.8,
+                "kts": 143,
+                "mph": 164.6
+              },
+              "verticalSpeed": {
+                "fpm": -512,
+                "ms": -2.6
+              },
+              "heading": 228,
+              "squawk": "720",
+              "timestamp": 1565735804,
+              "ems": null
+            },
+            {
+              "latitude": 25.146103,
+              "longitude": 121.309204,
+              "altitude": {
+                "feet": 1800,
+                "meters": 549
+              },
+              "speed": {
+                "kmh": 259.3,
+                "kts": 140,
+                "mph": 161.1
+              },
+              "verticalSpeed": {
+                "fpm": -832,
+                "ms": -4.2
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735810,
+              "ems": null
+            },
+            {
+              "latitude": 25.143003,
+              "longitude": 121.305229,
+              "altitude": {
+                "feet": 1700,
+                "meters": 518
+              },
+              "speed": {
+                "kmh": 257.4,
+                "kts": 139,
+                "mph": 160
+              },
+              "verticalSpeed": {
+                "fpm": -896,
+                "ms": -4.6
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735817,
+              "ems": null
+            },
+            {
+              "latitude": 25.137817,
+              "longitude": 121.298523,
+              "altitude": {
+                "feet": 1575,
+                "meters": 480
+              },
+              "speed": {
+                "kmh": 238.9,
+                "kts": 129,
+                "mph": 148.5
+              },
+              "verticalSpeed": {
+                "fpm": -576,
+                "ms": -2.9
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735830,
+              "ems": null
+            },
+            {
+              "latitude": 25.133011,
+              "longitude": 121.292473,
+              "altitude": {
+                "feet": 1425,
+                "meters": 434
+              },
+              "speed": {
+                "kmh": 233.4,
+                "kts": 126,
+                "mph": 145
+              },
+              "verticalSpeed": {
+                "fpm": -704,
+                "ms": -3.6
+              },
+              "heading": 228,
+              "squawk": "720",
+              "timestamp": 1565735842,
+              "ems": null
+            },
+            {
+              "latitude": 25.130295,
+              "longitude": 121.289009,
+              "altitude": {
+                "feet": 1375,
+                "meters": 419
+              },
+              "speed": {
+                "kmh": 235.2,
+                "kts": 127,
+                "mph": 146.1
+              },
+              "verticalSpeed": {
+                "fpm": -576,
+                "ms": -2.9
+              },
+              "heading": 228,
+              "squawk": "720",
+              "timestamp": 1565735850,
+              "ems": null
+            },
+            {
+              "latitude": 25.109951,
+              "longitude": 121.2631,
+              "altitude": {
+                "feet": 800,
+                "meters": 244
+              },
+              "speed": {
+                "kmh": 240.8,
+                "kts": 130,
+                "mph": 149.6
+              },
+              "verticalSpeed": {
+                "fpm": -576,
+                "ms": -2.9
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735901,
+              "ems": null
+            },
+            {
+              "latitude": 25.106277,
+              "longitude": 121.258392,
+              "altitude": {
+                "feet": 700,
+                "meters": 213
+              },
+              "speed": {
+                "kmh": 240.8,
+                "kts": 130,
+                "mph": 149.6
+              },
+              "verticalSpeed": {
+                "fpm": -640,
+                "ms": -3.3
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735910,
+              "ems": null
+            },
+            {
+              "latitude": 25.101974,
+              "longitude": 121.252953,
+              "altitude": {
+                "feet": 575,
+                "meters": 175
+              },
+              "speed": {
+                "kmh": 238.9,
+                "kts": 129,
+                "mph": 148.5
+              },
+              "verticalSpeed": {
+                "fpm": -640,
+                "ms": -3.3
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735922,
+              "ems": null
+            },
+            {
+              "latitude": 25.099319,
+              "longitude": 121.249542,
+              "altitude": {
+                "feet": 500,
+                "meters": 152
+              },
+              "speed": {
+                "kmh": 237.1,
+                "kts": 128,
+                "mph": 147.3
+              },
+              "verticalSpeed": {
+                "fpm": -576,
+                "ms": -2.9
+              },
+              "heading": 229,
+              "squawk": "720",
+              "timestamp": 1565735929,
+              "ems": null
+            },
+            {
+              "latitude": 25.080963,
+              "longitude": 121.22702,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 59.3,
+                "kts": 32,
+                "mph": 36.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 205,
+              "squawk": "720",
+              "timestamp": 1565735997,
+              "ems": null
+            },
+            {
+              "latitude": 25.079338,
+              "longitude": 121.226402,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 50,
+                "kts": 27,
+                "mph": 31.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 199,
+              "squawk": "720",
+              "timestamp": 1565736011,
+              "ems": null
+            },
+            {
+              "latitude": 25.078144,
+              "longitude": 121.2258,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 48.2,
+                "kts": 26,
+                "mph": 29.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 210,
+              "squawk": "720",
+              "timestamp": 1565736021,
+              "ems": null
+            },
+            {
+              "latitude": 25.077772,
+              "longitude": 121.225426,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 48.2,
+                "kts": 26,
+                "mph": 29.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 222,
+              "squawk": "720",
+              "timestamp": 1565736027,
+              "ems": null
+            },
+            {
+              "latitude": 25.077221,
+              "longitude": 121.224724,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 50,
+                "kts": 27,
+                "mph": 31.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 230,
+              "squawk": "720",
+              "timestamp": 1565736033,
+              "ems": null
+            },
+            {
+              "latitude": 25.076515,
+              "longitude": 121.223831,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 50,
+                "kts": 27,
+                "mph": 31.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 227,
+              "squawk": "720",
+              "timestamp": 1565736042,
+              "ems": null
+            },
+            {
+              "latitude": 25.074781,
+              "longitude": 121.221603,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 37,
+                "kts": 20,
+                "mph": 23
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 230,
+              "squawk": "720",
+              "timestamp": 1565736064,
+              "ems": null
+            },
+            {
+              "latitude": 25.072605,
+              "longitude": 121.221581,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 63,
+                "kts": 34,
+                "mph": 39.1
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 140,
+              "squawk": "720",
+              "timestamp": 1565736105,
+              "ems": null
+            },
+            {
+              "latitude": 25.06745,
+              "longitude": 121.226501,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 61.1,
+                "kts": 33,
+                "mph": 38
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 132,
+              "squawk": "720",
+              "timestamp": 1565736184,
+              "ems": null
+            },
+            {
+              "latitude": 25.067345,
+              "longitude": 121.226952,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 61.1,
+                "kts": 33,
+                "mph": 38
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 84,
+              "squawk": "720",
+              "timestamp": 1565736192,
+              "ems": null
+            },
+            {
+              "latitude": 25.067551,
+              "longitude": 121.227341,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 29.6,
+                "kts": 16,
+                "mph": 18.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 50,
+              "squawk": "720",
+              "timestamp": 1565736198,
+              "ems": null
+            },
+            {
+              "latitude": 25.068226,
+              "longitude": 121.228203,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 37,
+                "kts": 20,
+                "mph": 23
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 47,
+              "squawk": "720",
+              "timestamp": 1565736210,
+              "ems": null
+            },
+            {
+              "latitude": 25.068615,
+              "longitude": 121.228699,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 42.6,
+                "kts": 23,
+                "mph": 26.5
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 50,
+              "squawk": "720",
+              "timestamp": 1565736217,
+              "ems": null
+            },
+            {
+              "latitude": 25.069357,
+              "longitude": 121.22966,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 44.4,
+                "kts": 24,
+                "mph": 27.6
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 47,
+              "squawk": "720",
+              "timestamp": 1565736227,
+              "ems": null
+            },
+            {
+              "latitude": 25.070452,
+              "longitude": 121.231033,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 46.3,
+                "kts": 25,
+                "mph": 28.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 50,
+              "squawk": "720",
+              "timestamp": 1565736242,
+              "ems": null
+            },
+            {
+              "latitude": 25.071068,
+              "longitude": 121.231827,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 33.3,
+                "kts": 18,
+                "mph": 20.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 50,
+              "squawk": "720",
+              "timestamp": 1565736252,
+              "ems": null
+            },
+            {
+              "latitude": 25.072208,
+              "longitude": 121.234779,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 37,
+                "kts": 20,
+                "mph": 23
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 47,
+              "squawk": "720",
+              "timestamp": 1565736299,
+              "ems": null
+            },
+            {
+              "latitude": 25.072666,
+              "longitude": 121.235336,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 35.2,
+                "kts": 19,
+                "mph": 21.9
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 47,
+              "squawk": "720",
+              "timestamp": 1565736308,
+              "ems": null
+            },
+            {
+              "latitude": 25.073139,
+              "longitude": 121.235954,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 29.6,
+                "kts": 16,
+                "mph": 18.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 50,
+              "squawk": "720",
+              "timestamp": 1565736318,
+              "ems": null
+            },
+            {
+              "latitude": 25.073559,
+              "longitude": 121.236488,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 29.6,
+                "kts": 16,
+                "mph": 18.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 50,
+              "squawk": "720",
+              "timestamp": 1565736326,
+              "ems": null
+            },
+            {
+              "latitude": 25.073982,
+              "longitude": 121.237015,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 27.8,
+                "kts": 15,
+                "mph": 17.3
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 47,
+              "squawk": "720",
+              "timestamp": 1565736337,
+              "ems": null
+            },
+            {
+              "latitude": 25.07435,
+              "longitude": 121.237503,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 46.3,
+                "kts": 25,
+                "mph": 28.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 50,
+              "squawk": "720",
+              "timestamp": 1565736346,
+              "ems": null
+            },
+            {
+              "latitude": 25.074554,
+              "longitude": 121.23774,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 42.6,
+                "kts": 23,
+                "mph": 26.5
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 47,
+              "squawk": "720",
+              "timestamp": 1565736354,
+              "ems": null
+            },
+            {
+              "latitude": 25.075619,
+              "longitude": 121.237289,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 27.8,
+                "kts": 15,
+                "mph": 17.3
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 320,
+              "squawk": "720",
+              "timestamp": 1565736380,
+              "ems": null
+            },
+            {
+              "latitude": 25.076597,
+              "longitude": 121.237099,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 59.3,
+                "kts": 32,
+                "mph": 36.8
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 36,
+              "squawk": "720",
+              "timestamp": 1565736398,
+              "ems": null
+            },
+            {
+              "latitude": 25.077095,
+              "longitude": 121.237778,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 57.4,
+                "kts": 31,
+                "mph": 35.7
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 50,
+              "squawk": "720",
+              "timestamp": 1565736410,
+              "ems": null
+            },
+            {
+              "latitude": 25.077393,
+              "longitude": 121.237968,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 53.7,
+                "kts": 29,
+                "mph": 33.4
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 16,
+              "squawk": "720",
+              "timestamp": 1565736417,
+              "ems": null
+            },
+            {
+              "latitude": 25.078342,
+              "longitude": 121.23716,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 0,
+                "kts": 0,
+                "mph": 0
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 323,
+              "squawk": "720",
+              "timestamp": 1565736510,
+              "ems": null
+            },
+            {
+              "latitude": 25.076683,
+              "longitude": 121.237206,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 0,
+                "kts": 0,
+                "mph": 0
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 271,
+              "squawk": "720",
+              "timestamp": 1565736540,
+              "ems": null
+            },
+            {
+              "latitude": 25.078342,
+              "longitude": 121.23716,
+              "altitude": {
+                "feet": 0,
+                "meters": 0
+              },
+              "speed": {
+                "kmh": 0,
+                "kts": 0,
+                "mph": 0
+              },
+              "verticalSpeed": {
+                "fpm": 0,
+                "ms": 0
+              },
+              "heading": 89,
+              "squawk": "720",
+              "timestamp": 1565736600,
+              "ems": null
+            }
+          ],
+          "aircraftImages": {
+            "thumbnails": [
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/200\/6\/38968_1558166464_tb.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9322307",
+                "copyright": "Andre Giam",
+                "source": "Jetphotos.com"
+              },
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/200\/5\/15436_1556875604_tb.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9308891",
+                "copyright": "Drake D Kao",
+                "source": "Jetphotos.com"
+              },
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/200\/5\/42115_1556731392_tb.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9307329",
+                "copyright": "Rex Tsai",
+                "source": "Jetphotos.com"
+              },
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/200\/5\/73356_1552098820_tb.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9256437",
+                "copyright": "Arvin Lienardi",
+                "source": "Jetphotos.com"
+              },
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/200\/5\/13055_1551183614_tb.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9245709",
+                "copyright": "M. Raykahn Ariga",
+                "source": "Jetphotos.com"
+              }
+            ],
+            "medium": [
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/400\/6\/38968_1558166464.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9322307",
+                "copyright": "Andre Giam",
+                "source": "Jetphotos.com"
+              },
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/400\/5\/15436_1556875604.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9308891",
+                "copyright": "Drake D Kao",
+                "source": "Jetphotos.com"
+              },
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/400\/5\/42115_1556731392.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9307329",
+                "copyright": "Rex Tsai",
+                "source": "Jetphotos.com"
+              },
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/400\/5\/73356_1552098820.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9256437",
+                "copyright": "Arvin Lienardi",
+                "source": "Jetphotos.com"
+              },
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/400\/5\/13055_1551183614.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9245709",
+                "copyright": "M. Raykahn Ariga",
+                "source": "Jetphotos.com"
+              }
+            ],
+            "large": [
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/640cb\/6\/38968_1558166464.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9322307",
+                "copyright": "Andre Giam",
+                "source": "Jetphotos.com"
+              },
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/640cb\/5\/15436_1556875604.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9308891",
+                "copyright": "Drake D Kao",
+                "source": "Jetphotos.com"
+              },
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/640cb\/5\/42115_1556731392.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9307329",
+                "copyright": "Rex Tsai",
+                "source": "Jetphotos.com"
+              },
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/640cb\/5\/73356_1552098820.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9256437",
+                "copyright": "Arvin Lienardi",
+                "source": "Jetphotos.com"
+              },
+              {
+                "src": "https:\/\/cdn.jetphotos.com\/640cb\/5\/13055_1551183614.jpg?v=0",
+                "link": "https:\/\/www.jetphotos.com\/photo\/9245709",
+                "copyright": "M. Raykahn Ariga",
+                "source": "Jetphotos.com"
+              }
+            ]
+          },
+          "availability": {
+            "ems": false
+          }
+        }
+      }
+    }
+  },
+  "_api": {
+    "copyright": "Copyright (c) 2014-2019 Flightradar24 AB. All rights reserved.",
+    "legalNotice": "The contents of this file and all derived data are the property of Flightradar24 AB for use exclusively by its products and applications. Using, modifying or redistributing the data without the prior written permission of Flightradar24 AB is not allowed and may result in prosecutions."
+  }
+}
